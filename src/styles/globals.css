@@ -40,6 +40,10 @@
   --card-border-rgb: 131, 134, 135;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -104,4 +108,66 @@ a {
   html {
     color-scheme: dark;
   }
+}
+.slider-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.slick-slide img {
+  width: 100%;
+  height: auto;
+}
+
+.slick-dots li button:before {
+  color: #fff;
+  font-size: 16px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #007bff;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+.icn{
+  position: relative;
+  margin-bottom: -5px;
+}
+
+.righticn{
+  position: relative;
+  margin-bottom: -7px;
+}
+
+.slick-slide img {
+  display: block;
+  margin-bottom: -10px !important;
+}
+
+.eventContainer{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  overflow: scroll;
+  padding: 20px;
+  background: #0a064c7b;
+  width: 120vw;
+  margin-left: -80px;
+  transform: rotate(347deg);
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  font-family: var(--font-mono);
+  background: #09064c;
+  margin-top: -2px;
+  position: relative;
 }
