@@ -18,8 +18,8 @@ function Eventsx() {
      
 
      {events.map((item,index)=>{
-      return( <div className={styles.eventCard}>
-        <div key={index} className={styles.rotatedcard}>
+      return( <div key={index} className={styles.eventCard}>
+        <div  className={styles.rotatedcard}>
           <Image
             className={styles.eventImage}
             src={events[index].image}
