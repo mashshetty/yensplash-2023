@@ -471,6 +471,7 @@
   position: absolute;
   left: 10px;
   top: 18px;
+  color: white;
 }
 
 .menu {
@@ -480,10 +481,11 @@
   justify-content: right;
   align-items: center;
   padding: 15px;
-  background: #fff0d2c7;
+ background: #09064c;
   position: fixed;
   box-shadow: 3px 1px 16px 3px black;
   min-height: 62px;
+  z-index: 10000;
 }
 
 .pronitecard1 {
@@ -631,13 +633,7 @@
   cursor: pointer;
   margin-right: 15px;
   font-family: var(--font-mono);
-  animation-name: nav;
-  animation-duration: 0.5s;
-  transition-timing-function: ease-in-out;
-  -webkit-animation: flip-horizontal-top 0.4s
-    cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
-  animation: flip-horizontal-top 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955)
-    both;
+
 }
 
 .navoption:hover {
@@ -658,31 +654,7 @@
  * animation flip-horizontal-top
  * ----------------------------------------
  */
-@-webkit-keyframes flip-horizontal-top {
-  0% {
-    -webkit-transform: rotateX(0);
-    transform: rotateX(0);
-  }
-  100% {
-    -webkit-transform: rotateX(180deg);
-    transform: rotateX(180deg);
-  }
-}
-@keyframes flip-horizontal-top {
-  0% {
-    -webkit-transform: rotateX(0);
-    transform: rotateX(0);
-  }
-  50% {
-    -webkit-transform: rotateX(180deg);
-    transform: rotateX(180deg);
-  }
 
-  100% {
-    -webkit-transform: rotateX(0);
-    transform: rotateX(0);
-  }
-}
 
 .navoptionx {
   padding: 5px 10px;
@@ -736,23 +708,6 @@
   margin-inline: 30px;
 }
 
-@keyframes nav {
-  0% {
-    margin-top: -100%;
-  }
-
-  50% {
-    margin-top: 25px;
-  }
-
-  99% {
-    margin-top: 1px;
-  }
-
-  100% {
-    margin-top: auto;
-  }
-}
 
 .yenepoya {
   font-size: 350%;

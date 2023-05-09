@@ -6,9 +6,10 @@ import r2 from "../../public/s.jpg";
 import Image from "next/image";
 import { Button } from "@mui/material";
 import Link from "next/link";
+import events from './events.json'
 
-function events() {
-  const [events,setEvents]=useState([1,2,3,4,5,6,7,8,9,10])
+function Eventsx() {
+  
   const data = 1;
   return (
     <>
@@ -20,10 +21,10 @@ function events() {
 
      {events.map((item,index)=>{
       return( <div className={styles.eventCard}>
-        <div key="index" className={styles.rotatedcard}>
+        <div key={index} className={styles.rotatedcard}>
           <Image
             className={styles.eventImage}
-            src={r2}
+            src={events[index].image}
             height="800"
             width="800"
             alt="event image"
@@ -31,8 +32,8 @@ function events() {
         </div>
 
         <div className={styles.eventBottom}>
-          <h1 className={styles.eventHeader}>Singing</h1>
-          <p className={styles.eventDetails}> Day 1 || TLH 01 || 2:00 PM </p>
+          <h1 className={styles.eventHeader}>{events[index].name}</h1>
+          <p className={styles.eventDetails}> {events[index].schedule}</p>
         <Link href={`events/${index}`}><Button className={styles.knowMore}>know more</Button></Link>  
         </div>
       </div>
@@ -49,4 +50,4 @@ function events() {
   );
 }
 
-export default events;
+export default Eventsx;
