@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import styles from "@/styles/Home.module.css";
 import Image from "next/image";
-import { event } from "./eventsList";
+// import { event } from "./eventsList";
+import event from '../../../public/events.json'
 
 function Event() {
   const router = useRouter();

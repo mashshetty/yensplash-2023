@@ -4,7 +4,7 @@ import styles from "@/styles/Home.module.css";
 import Image from "next/image";
 import { Button } from "@mui/material";
 import Link from "next/link";
-import events from './events.json'
+import events from '../../public/events.json'
 
 function Eventsx() {
   
