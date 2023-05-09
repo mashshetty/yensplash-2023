@@ -5,6 +5,9 @@
 
 // module.exports = nextConfig
 module.exports = {
+  images: {
+    domains: ['res.cloudinary.com'],
+  },
   webpack: (config, { isServer }) => {
     // Add the file-loader and url-loader for mp4 files
     config.module.rules.push({
@@ -21,6 +24,7 @@ module.exports = {
           },
         },
       ],
+      
     })
 
     return config
