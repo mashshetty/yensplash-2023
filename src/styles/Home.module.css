@@ -52,6 +52,15 @@
   z-index: 15;
 }
 
+.eventHeader{
+  font-family: "Dancing Script", cursive;
+  color: #ffc656;
+  text-align: center;
+  font-size: 450%;
+  margin-top: 20px;
+  margin-bottom: -20px;
+}
+
 .legacy {
   color: #eadfff;
   padding-top: -10px;
@@ -294,6 +303,7 @@
 .dow {
   background: #6f42c1 !important;
   padding: 10px 25px;
+
   cursor: pointer;
   box-shadow: 5px 5px 25px -7px black;
   border-radius: 25px;
@@ -498,7 +508,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-shadow: -2px 4px 43px -5px;
+  /* box-shadow: -2px 4px 43px -5px; */
   margin-bottom: 40px;
   margin-inline: 20px;
 
@@ -525,7 +535,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-shadow: -2px 4px 43px -5px;
+  /* box-shadow: -2px 4px 43px -5px; */
   margin-bottom: 40px;
   margin-inline: 20px;
 
@@ -552,7 +562,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-shadow: -2px 4px 43px -5px;
+  /* box-shadow: -2px 4px 43px -5px; */
   margin-bottom: 40px;
   margin-inline: 20px;
 
@@ -776,7 +786,8 @@ align-items: center;
 
 .eventDetails {
   padding: 10px;
-  color: #6529d5;
+  color: #6a6a6a;
+  margin: 20px;
   font-size: 130%;
   margin-inline: 0px;
   margin-bottom: 10px;
@@ -920,12 +931,13 @@ align-items: center;
   }
 
   .proimg {
-    width: 300px;
-    height: 330px;
+    width: 80vw;
+    height: 37vh;
   }
 
   .pcontainer {
     flex-direction: column;
+    overflow: hidden;
   }
   .slick-slide img {
     width: 300px !important;
@@ -938,8 +950,8 @@ align-items: center;
   }
 
   .yenepoya {
-    font-size: 250%;
-    text-align: center;
+    font-size: 200%;
+    text-align: left;
   }
 
   .pronitecard1 {
@@ -973,4 +985,66 @@ align-items: center;
   .homepage {
     flex-wrap: wrap;
   }
+
+  .dow{
+    font-size: 80%;
+  }
+
+  @keyframes download {
+    0% {
+      padding: 10px 25px;
+      font-size: 100%;
+      background: #6f42c1;
+    }
+  
+    50% {
+      padding: 11px 30px;
+      font-size: 110%;
+      background: #6529d5;
+    }
+  
+    100% {
+      padding: 10px 25px;
+      font-size: 100%;
+      background: #6f42c1;
+    }
+  }
+
+  .plant{
+    bottom: -218px;
+  }
+
+  .pronitecard1:hover {
+    box-shadow: -2px 4px 43px -5px #100a78;
+    transform: scale(1.0);
+    margin: auto;
+  }
+
+  .pronitecard2:hover {
+    box-shadow: -2px 4px 43px -5px #100a78;
+    transform: scale(1.0);
+    margin: auto;
+  }
+
+  .pronitecard3:hover {
+    box-shadow: -2px 4px 43px -5px #100a78;
+    transform: scale(1.0);
+    margin: auto;
+  }
+
+  .prodesc{
+    font-size: 100%;
+  }
+
+  
+  
+.subaddress{
+  font-size: 100%;
+  margin: 2px;
+}
+
+.pronightHeader{
+  font-size: 240%;
+}
+
 }

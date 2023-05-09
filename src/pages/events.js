@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import styles from "@/styles/Home.module.css";
-import r from "../../public/rdd.jpg";
-import r1 from "../../public/r.jpg";
-import r2 from "../../public/s.jpg";
+
 import Image from "next/image";
 import { Button } from "@mui/material";
 import Link from "next/link";
@@ -14,7 +12,7 @@ function Eventsx() {
   return (
     <>
       <div className={styles.eventContainerx}>
-     <h1 className={styles.pronightHeader}>Events</h1>
+     <h1 className={styles.eventHeader}>Events</h1>
      </div>
     <div className={styles.eventContainerx}>
      
