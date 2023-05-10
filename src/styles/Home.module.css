@@ -946,8 +946,8 @@ align-items: center;
   }
 
   .yenx {
-    font-size: 319%;
-    margin-bottom: 60px;
+    font-size: 281%;
+    margin-bottom: 0px;
   }
 
   .pronitecard {
@@ -1081,6 +1081,7 @@ align-items: center;
 .info {
   font-size: 100%;
   line-height:23px;
+  padding: 10px;
 }
 
 }
