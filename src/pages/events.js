@@ -12,13 +12,20 @@ function Eventsx() {
   return (
     <>
       <div className={styles.eventContainerx}>
-     <h1 className={styles.eventHeader}>Events</h1>
+     <h1 className={styles.eventHeaderx}>Events</h1>
      </div>
     <div className={styles.eventContainerx}>
      
 
      {events.map((item,index)=>{
       return( <div key={index} className={styles.eventCard}>
+        <Image
+            className={styles.eventBG}
+            src={events[index].image}
+            height="800"
+            width="800"
+            alt="event image"
+          ></Image>
         <div  className={styles.rotatedcard}>
           <Image
             className={styles.eventImage}
