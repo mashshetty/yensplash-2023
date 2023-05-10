@@ -596,6 +596,7 @@
   border-radius: 10px;
   cursor: pointer;
   transition: 0.5s;
+  object-fit: cover;
 }
 
 .proimg:hover {
@@ -628,14 +629,14 @@
 }
 
 .prodesc {
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
   font-size: 120%;
   color: rgb(231, 231, 231);
   /* border-top: 1px solid white; */
   /* border-radius: 10px; */
-  border-bottom: 1px solid #bcbcbc;
-  padding-bottom: 20px;
-  margin-top: 15px;
+  border-bottom: 1px solid #5e5e5e;
+  padding-bottom: 15px;
+  margin-top: 10px;
 }
 
 .navoption {
@@ -925,7 +926,7 @@ align-items: center;
 
   .homeimg {
     width: 450px !important;
-    height: 387px !important;
+    height: 340px !important;
   }
 
   .homepageimg {
@@ -955,6 +956,7 @@ align-items: center;
   .proimg {
     width: 88vw;
     height: 37vh;
+    object-fit: cover;
     margin-top: -10px;
   }
 
