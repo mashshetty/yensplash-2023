@@ -695,7 +695,6 @@
 
 .navoptionx {
   padding: 5px 10px;
-  background: #6f42c1;
   font-size: 120%;
   color: rgb(255, 255, 255);
   cursor: pointer;
@@ -1019,7 +1018,7 @@ align-items: center;
     overflow: scroll;
   }
   .galImg {
-    height: auto;
+    /* height: auto; */
     width: 94vw;
   }
   .abtuslogo {
