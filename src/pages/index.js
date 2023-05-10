@@ -7,6 +7,7 @@ import img from "../../public/YENSPLASH.png";
 import Gallery from "./components/gallery";
 import Pronite from "./components/pronite";
 import bg from "../../public/bgvideo.mp4";
+import mbg from "../../public/mobile.mp4";
 import { useEffect, useRef } from 'react';
 import AOS from "aos";
 import 'aos/dist/aos.css';
@@ -23,13 +24,14 @@ export default function Home() {
    
   }, [])
   const videoRef = useRef(null);
+  const mvideoRef = useRef(null);
   useEffect(() => {
     if (videoRef.current) {
       videoRef.current.play();
+      mvideoRef.current.play();
     }
 
-    const parallax = document.getElementById("parallax");
-
+   
 
   }, []);
 
@@ -49,6 +51,11 @@ export default function Home() {
           <div className={styles.homepageimg}>
             <video controls={false} autoPlay muted  ref={videoRef} loop={true} className={styles.homevideo}>
               <source src={bg} type="video/mp4" />
+            </video>
+          </div>
+          <div className={styles.mhomepageimg}>
+            <video controls={false} autoPlay muted  ref={mvideoRef} loop={true} className={styles.mhomevideo}>
+              <source src={mbg} type="video/mp4" />
             </video>
           </div>
           <div  data-aos="fade-left">

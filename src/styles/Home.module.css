@@ -260,12 +260,23 @@
   margin: auto;
   position: absolute;
   width: 100vw;
-  /* height: 130vh; */
+  opacity: 0.2;
+}
+.mhomepageimg {
+  margin: auto;
+  position: absolute;
+  width: 100vw;
   opacity: 0.2;
 }
 
 .homevideo {
   width: 100vw;
+}
+
+.mhomevideo {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
 }
 
 @keyframes homepage {
@@ -906,6 +917,10 @@ align-items: center;
   color: #f5a200;
   margin-bottom: 10px;
 }
+
+.mhomepageimg{
+  display: none;
+}
 .eventDetailsx{
   padding: 10px ;
   font-size: 130%;
@@ -940,6 +955,12 @@ align-items: center;
   }
   .homepageimg {
     display: none;
+  }
+  .mhomepageimg{
+    display: block;
+    opacity: 0.2;
+  
+
   }
   .quate {
     line-height: 66px;
