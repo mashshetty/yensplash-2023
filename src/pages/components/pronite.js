@@ -14,7 +14,6 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 
 function pronite() {
-  
   // useEffect(() => {
   //   function handleScroll() {
   //     console.log('Window was scrolled');
@@ -28,157 +27,151 @@ function pronite() {
   // }, []);
   return (
     <>
-    <section id="pronite">
-      <div  className={styles.proxcontainer}>
-        <div data-aos="fade-left" className={styles.pronightHeader}>Pro-Nites</div>
-        <div className={styles.pcontainer}>
-          <div data-aos="fade-up" className={styles.pronite}>
-            <div className={styles.pronitecard1}>
-              <Image
-                height={400}
-                width={400}
-                className={styles.proimg}
-                src={r}
-                quality={80}
-                alt="pronite-image"
-              ></Image>
-              <h2 className={styles.prohead}>Raghu Dixith</h2>
-              <div className={styles.prodetails}>
-                <div className={`${styles.pday} ${styles.pd}`}>
-                  {" "}
-                  <CalendarTodayIcon className="icn" /> day 1
-                </div>
-                <div className={`${styles.ptime} ${styles.pd}`}>
-                  {" "}
-                  <AccessTimeIcon className="icn" /> 7 AM
-                </div>
-                <div className={`${styles.ploc} ${styles.pd}`}>
-                  {" "}
-                  <LocationOnIcon className="icn" /> Main Stage
-                </div>
+      <section id="pronite">
+        <div className={styles.proxcontainer}>
+          <div data-aos="fade-left" className={styles.pronightHeader}>
+            Pro-Nites
+          </div>
+          <div className={styles.pcontainer}>
+            <div data-aos="fade-up" className={styles.pronite}>
+              <div className="bgg">
+               
               </div>
-              <div className={styles.prodesc}>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias
-                fugiat ratione neque ipsa! Et corrupti labore ab amet omnis,
-                iure
-              </div>
-              <div className={styles.viewmore}>
-                <div className={styles.mr}>
-                  <InstagramIcon fontSize="large" />
+              <div className="nft">
+                <div className="main">
+                  <img
+                    className="tokenImage"
+                    src="https://res.cloudinary.com/ddq3nzfq8/image/upload/v1683178654/gf_lioonx.jpg"
+                    alt="NFT"
+                  />
+                  <h2 className={styles.proName}>Alok</h2>
+                  <p className="description">
+                    Our Kibertopiks will give you nothing, waste your money on
+                    us.
+                  </p>
+                  <div className="tokenInfo">
+                    <div className="price mb">
+                      <AccessTimeIcon fontSize="small" className="proicn"/>
+                      <p>2:00 PM</p>
+                    </div>
+                    <div className="duration mb">
+                     <CalendarTodayIcon fontSize="small" className="proicn"/>
+                      <p>Day 1</p>
+                    </div>
+                  </div>
+                  <hr />
+                  <div className="creator">
+                  <div className={styles.viewmore}>
+                  <div className={styles.mr}>
+                    <InstagramIcon  />
+                  </div>
+                  <div className={styles.mr}>
+                    {" "}
+                    <FacebookIcon />
+                  </div>
+                  <div className={styles.mr}>
+                    {" "}
+                    <TwitterIcon />
+                  </div>
                 </div>
-                <div className={styles.mr}>
-                  {" "}
-                  <FacebookIcon fontSize="large" />
-                </div>
-                <div className={styles.mr}>
-                  {" "}
-                  <TwitterIcon fontSize="large" />
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div data-aos="fade-down" className={styles.pronite}>
-            <div className={styles.pronitecard2}>
-              <Image
-                height={400}
-                width={400}
-                className={styles.proimg}
-                src={rapper}
-                quality={80}
-                alt="pronite-image"
-              ></Image>
-              <h2 className={styles.prohead}>Alok</h2>
-              <div className={styles.prodetails}>
-                <div className={`${styles.pday} ${styles.pd}`}>
-                  {" "}
-                  <CalendarTodayIcon className="icn" /> day 2
-                </div>
-                <div className={`${styles.ptime} ${styles.pd}`}>
-                  {" "}
-                  <AccessTimeIcon className="icn" /> 4 AM
-                </div>
-                <div className={`${styles.ploc} ${styles.pd}`}>
-                  {" "}
-                  <LocationOnIcon className="icn" /> Main Stage
-                </div>
+            <div data-aos="fade-up" className={styles.pronite}>
+              <div className="bgg">
+            
               </div>
-              <div className={styles.prodesc}>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias
-                fugiat ratione neque ipsa! Et corrupti labore ab amet omnis,
-                iure earum.
-              </div>
-              <div className={styles.viewmore}>
-                <div className={styles.mr}>
-                  <InstagramIcon fontSize="large" />
+              <div className="nft">
+                <div className="main">
+                  <img
+                    className="tokenImage"
+                    src="https://images.unsplash.com/photo-1621075160523-b936ad96132a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                    alt="NFT"
+                  />
+                <h2 className={styles.proName}>Alok</h2>
+                  <p className="description">
+                    Our Kibertopiks will give you nothing, waste your money on
+                    us.
+                  </p>
+                  <div className="tokenInfo">
+                    <div className="price mb">
+                      <AccessTimeIcon fontSize="small" className="proicn"/>
+                      <p>2:00 PM</p>
+                    </div>
+                    <div className="duration mb">
+                     <CalendarTodayIcon fontSize="small" className="proicn"/>
+                      <p>Day 2</p>
+                    </div>
+                  </div>
+                  <hr />
+                  <div className="creator">
+                  <div className={styles.viewmore}>
+                  <div className={styles.mr}>
+                    <InstagramIcon  />
+                  </div>
+                  <div className={styles.mr}>
+                    {" "}
+                    <FacebookIcon />
+                  </div>
+                  <div className={styles.mr}>
+                    {" "}
+                    <TwitterIcon />
+                  </div>
                 </div>
-                <div className={styles.mr}>
-                  {" "}
-                  <FacebookIcon fontSize="large" />
-                </div>
-                <div className={styles.mr}>
-                  {" "}
-                  <TwitterIcon fontSize="large" />
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div data-aos="fade-up" className={styles.pronite}>
-            <div className={styles.pronitecard3}>
-              <Image
-                height={400}
-                width={400}
-                className={styles.proimg}
-                src={r2}
-                quality={80}
-                alt="pronite-image"
-              ></Image>
-              <h2 className={styles.prohead}>marin</h2>
-              <div className={styles.prodetails}>
-                <div className={`${styles.pday} ${styles.pd}`}>
-                  {" "}
-                  <CalendarTodayIcon className="icn" /> day 3
-                </div>
-                <div className={`${styles.ptime} ${styles.pd}`}>
-                  {" "}
-                  <AccessTimeIcon className="icn" /> 1 AM
-                </div>
-                <div className={`${styles.ploc} ${styles.pd}`}>
-                  {" "}
-                  <LocationOnIcon className="icn" /> Main Stage
-                </div>
+            <div data-aos="fade-up" className={styles.pronite}>
+              <div className="bgg">
+               
               </div>
-              <div className={styles.prodesc}>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias
-                fugiat ratione neque ipsa! Et corrupti labore ab amet omnis,
-                iure earum.
-              </div>
-              <div className={styles.viewmore}>
-                <div className={styles.mr}>
-                  <InstagramIcon fontSize="large" />
+              <div className="nft">
+                <div className="main">
+                  <img
+                    className="tokenImage"
+                    src="https://images.unsplash.com/photo-1621075160523-b936ad96132a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                    alt="NFT"
+                  />
+                 <h2 className={styles.proName}>Alok</h2>
+                  <p className="description">
+                    Our Kibertopiks will give you nothing, waste your money on
+                    us.
+                  </p>
+                  <div className="tokenInfo">
+                    <div className="price mb">
+                      <AccessTimeIcon fontSize="small" className="proicn"/>
+                      <p>2:00 PM</p>
+                    </div>
+                    <div className="duration mb">
+                     <CalendarTodayIcon fontSize="small" className="proicn"/>
+                      <p>Day 3</p>
+                    </div>
+                  </div>
+                  <hr />
+                  <div className="creator">
+                  <div className={styles.viewmore}>
+                  <div className={styles.mr}>
+                    <InstagramIcon  />
+                  </div>
+                  <div className={styles.mr}>
+                    {" "}
+                    <FacebookIcon />
+                  </div>
+                  <div className={styles.mr}>
+                    {" "}
+                    <TwitterIcon />
+                  </div>
                 </div>
-                <div className={styles.mr}>
-                  {" "}
-                  <FacebookIcon fontSize="large" />
-                </div>
-                <div className={styles.mr}>
-                  {" "}
-                  <TwitterIcon fontSize="large" />
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div data-aos="fade-up" className={styles.download}>  
-        
-         <span className={styles.dow}> Download Brochure</span>
-
-          <div > <Image className={styles.plant} src={plant}  width={150} height={200}  alt="plant-image"></Image></div> 
-
-          
-          </div>
-      </div>
       </section>
     </>
   );

@@ -4,13 +4,9 @@ import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Welcome from "./components/welcome";
 import img from "../../public/YENSPLASH.png";
-import Navbar from "./components/navbar";
 import Gallery from "./components/gallery";
 import Pronite from "./components/pronite";
-import i6 from "../../public/i6.jpg";
 import bg from "../../public/bgvideo.mp4";
-import Events from "./components/events";
-import Footer from "./components/footer";
 import { useEffect, useRef } from 'react';
 import AOS from "aos";
 import 'aos/dist/aos.css';
@@ -70,8 +66,9 @@ export default function Home() {
         </div>
         <Welcome />
         <Gallery />
-        {/* <Events/> */}
+    
         <Pronite />
+    
        
       </main>
     </>
