@@ -605,7 +605,7 @@
 
 .prodetails {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -615,12 +615,13 @@
   font-size: 100%;
   color: rgb(255, 255, 255);
   margin-right: 10px;
-  background: #ff5a5a;
   border-radius: 10px;
+  color: #935ef7;
 }
 
 .prohead {
-  color: #d1d1d1;
+
+  color: #dfbb75;
   padding: 20px 20px;
   font-family: "Dancing Script", cursive;
   font-size: 190%;
@@ -630,9 +631,11 @@
   padding: 10px 20px;
   font-size: 120%;
   color: rgb(231, 231, 231);
-  border-top: 1px solid white;
-  border-radius: 10px;
-  margin-top: 20px;
+  /* border-top: 1px solid white; */
+  /* border-radius: 10px; */
+  border-bottom: 1px solid #bcbcbc;
+  padding-bottom: 20px;
+  margin-top: 15px;
 }
 
 .navoption {
@@ -862,6 +865,13 @@ align-items: center;
   margin-bottom: 20px;
 }
 
+.proDetailsx{
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .teamContainer{
   position: relative;
 }
@@ -943,8 +953,9 @@ align-items: center;
   }
 
   .proimg {
-    width: 80vw;
+    width: 88vw;
     height: 37vh;
+    margin-top: -10px;
   }
 
   .pcontainer {
