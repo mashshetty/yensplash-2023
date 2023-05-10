@@ -1092,11 +1092,15 @@ align-items: center;
 }
 
 .eventCard{
-  width: 93vw;
+  width: 350px;
 }
 
 .eventContainerx {
   padding: 0px;
+}
+
+.eventImage{
+  height: 440px !important;
 }
 
 }
