@@ -41,6 +41,15 @@ function navbar() {
         </div>
       </div>
       <div className={styles.menu}>
+   {!show &&  <div className={styles.leaves}>
+          {" "}
+          <Image
+            src={leaves}
+            width={500}
+            height={300}
+            alt="leaves-images"
+          ></Image>
+        </div>}
         <span className={styles.menuicn} onClick={(e) => setShow(!show)}>
           <MenuIcon />
         </span>

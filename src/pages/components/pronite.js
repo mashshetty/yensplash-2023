@@ -164,7 +164,7 @@ function pronite() {
         
          <span className={styles.dow}> Download Brochure</span>
 
-          <div > <Image className={styles.plant} src={plant}  width={150} height={200}  alt="plant-image"></Image></div> 
+         
 
           
           </div>
