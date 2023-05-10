@@ -78,7 +78,7 @@ function gallery() {
 
 
 
-      <div data-aos="fade-up" className={styles.explore}>view more</div>
+      {/* <div data-aos="fade-up" className={styles.explore}>view more</div> */}
     </div>
     </section>
   )

@@ -581,9 +581,9 @@
   margin-inline: 0px;
 }
 .knowMore {
-  background: #09064c;
-  color: white;
-  padding: 5px 10px;
+  background: #09064c !important;
+  color: white !important;
+  padding: 5px 10px !important;
 }
 .knowMore:hover {
   background: #0f0a74;
@@ -764,7 +764,7 @@ align-items: center;
 
 .eventCard {
   position: relative;
-  width: 300px;
+  width: 350px;
   height: 500px;
   background: white;
   box-shadow: 5px 5px 25px -7px black;
@@ -802,13 +802,13 @@ align-items: center;
 .rotatedcard {
   top: 0px;
   position: absolute;
-  left: -50px;
-  height: 400px;
-  width: 500px;
-  transform: rotate(30deg);
-  background: red;
-  top: -90px;
-  overflow: hidden;
+    left: -20px;
+    height: 399px;
+    width: 549px;
+    transform: rotate(30deg);
+    background: red;
+    top: -90px;
+    overflow: hidden;
 }
 
 .eventBottom {
@@ -982,12 +982,15 @@ align-items: center;
 
   .pronitecard1 {
     width: 93vw;
+    margin-bottom: 20px;
   }
   .pronitecard2 {
     width: 93vw;
+    margin-bottom: 20px;
   }
   .pronitecard3 {
     width: 93vw;
+    margin-bottom: 20px;
   }
 
   .imgContainer {
@@ -1082,6 +1085,14 @@ align-items: center;
   font-size: 100%;
   line-height:23px;
   padding: 10px;
+}
+
+.container{
+  padding: 10px;
+}
+
+.eventCard{
+  width: 93vw;
 }
 
 }
