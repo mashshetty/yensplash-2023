@@ -1,7 +1,19 @@
 [
+
+
+    "https://res.cloudinary.com/ddq3nzfq8/image/upload/v1683717078/image_79_jjjjyt.jpg",
+    "https://res.cloudinary.com/ddq3nzfq8/image/upload/v1683717069/image_60_tmpnrn.jpg",
+    "https://res.cloudinary.com/ddq3nzfq8/image/upload/v1683717077/image_77_hehli6.jpg",
+    "https://res.cloudinary.com/ddq3nzfq8/image/upload/v1683717076/image_74_hauvet.jpg",
+    "https://res.cloudinary.com/ddq3nzfq8/image/upload/v1683717063/image_55_optq53.jpg",
+    "https://res.cloudinary.com/ddq3nzfq8/image/upload/v1683717079/image_78_aznkf2.jpg",
+    "https://res.cloudinary.com/ddq3nzfq8/image/upload/v1683717075/image_73_ci5mgu.jpg",
+    "https://res.cloudinary.com/ddq3nzfq8/image/upload/v1683717062/image_51_g1ivb7.jpg",
+    "https://res.cloudinary.com/ddq3nzfq8/image/upload/v1683717074/image_70_f5mdez.jpg",
+    "https://res.cloudinary.com/ddq3nzfq8/image/upload/v1683717032/image_4_usfhdb.jpg",
     { 
     "name":"singing",
-    "image":"https://res.cloudinary.com/ddq3nzfq8/image/upload/v1683178654/gf_lioonx.jpg",
+    "image":    "https://res.cloudinary.com/ddq3nzfq8/image/upload/v1683717078/image_79_jjjjyt.jpg",
     "description":"the activity of performing songs or tunes by making musical sounds with the voice.",
     "rules":"1 Support. Diaphragmatic support is the true engine of singing. 2 Vowel placement. The only sound that truly grows the voice is a bright timbral sound.3 Air management. ...4 Stress relief. ...5 Psychology of singing.",
     "coordinator":"pandu naik",
@@ -9,7 +21,7 @@
 },
 { 
     "name":"Dancing",
-    "image":"https://res.cloudinary.com/ddq3nzfq8/image/upload/v1683178069/DSC_0158_1_caecuv.jpg",
+    "image":"https://res.cloudinary.com/ddq3nzfq8/image/upload/v1683717069/image_60_tmpnrn.jpg",
     "description":"the activity of performing songs or tunes by making musical sounds with the voice.",
     "rules":"1 Support. Diaphragmatic support is the true engine of singing. 2 Vowel placement. The only sound that truly grows the voice is a bright timbral sound.3 Air management. ...4 Stress relief. ...5 Psychology of singing.",
     "coordinator":"sumanth ",
@@ -17,7 +29,7 @@
 },
 { 
     "name":"chess",
-    "image":"https://res.cloudinary.com/ddq3nzfq8/image/upload/v1683178761/dj_n3mwqm.jpg",
+    "image":    "https://res.cloudinary.com/ddq3nzfq8/image/upload/v1683717077/image_77_hehli6.jpg",
     "description":"the activity of performing songs or tunes by making musical sounds with the voice.",
     "rules":"1 Support. Diaphragmatic support is the true engine of singing. 2 Vowel placement. The only sound that truly grows the voice is a bright timbral sound.3 Air management. ...4 Stress relief. ...5 Psychology of singing.",
     "coordinator":"pandu naik",
@@ -25,7 +37,7 @@
 },
 { 
     "name":"coding",
-    "image":"https://res.cloudinary.com/ddq3nzfq8/image/upload/v1683178069/DSC_0158_1_caecuv.jpg",
+    "image":    "https://res.cloudinary.com/ddq3nzfq8/image/upload/v1683717076/image_74_hauvet.jpg",
     "description":"the activity of performing songs or tunes by making musical sounds with the voice.",
     "rules":"1 Support. Diaphragmatic support is the true engine of singing. 2 Vowel placement. The only sound that truly grows the voice is a bright timbral sound.3 Air management. ...4 Stress relief. ...5 Psychology of singing.",
     "coordinator":"pandu naik",
@@ -33,7 +45,7 @@
 },
 { 
     "name":"group dance",
-    "image":"https://res.cloudinary.com/ddq3nzfq8/image/upload/v1683178758/holy_odu48n.jpg",
+    "image": "https://res.cloudinary.com/ddq3nzfq8/image/upload/v1683717079/image_78_aznkf2.jpg",
     "description":"the activity of performing songs or tunes by making musical sounds with the voice.",
     "rules":"1 Support. Diaphragmatic support is the true engine of singing. 2 Vowel placement. The only sound that truly grows the voice is a bright timbral sound.3 Air management. ...4 Stress relief. ...5 Psychology of singing.",
     "coordinator":"pandu naik",
@@ -49,7 +61,7 @@
 },
 { 
     "name":"singing",
-    "image":"https://res.cloudinary.com/ddq3nzfq8/image/upload/v1683178736/rdx1_cltdbw.jpg",
+    "image":    "https://res.cloudinary.com/ddq3nzfq8/image/upload/v1683717075/image_73_ci5mgu.jpg",
     "description":"the activity of performing songs or tunes by making musical sounds with the voice.",
     "rules":"1 Support. Diaphragmatic support is the true engine of singing. 2 Vowel placement. The only sound that truly grows the voice is a bright timbral sound.3 Air management. ...4 Stress relief. ...5 Psychology of singing.",
     "coordinator":"pandu naik",
@@ -57,7 +69,7 @@
 },
 { 
     "name":"singing",
-    "image":"https://res.cloudinary.com/ddq3nzfq8/image/upload/v1683178726/holy1_ydt5xz.jpg",
+    "image":    "https://res.cloudinary.com/ddq3nzfq8/image/upload/v1683717075/image_73_ci5mgu.jpg",
     "description":"the activity of performing songs or tunes by making musical sounds with the voice.",
     "rules":"1 Support. Diaphragmatic support is the true engine of singing. 2 Vowel placement. The only sound that truly grows the voice is a bright timbral sound.3 Air management. ...4 Stress relief. ...5 Psychology of singing.",
     "coordinator":"pandu naik",
@@ -65,7 +77,7 @@
 },
 { 
     "name":"singing",
-    "image":"https://res.cloudinary.com/ddq3nzfq8/image/upload/v1683178711/mv_jrmhcw.jpg",
+    "image":    "https://res.cloudinary.com/ddq3nzfq8/image/upload/v1683717075/image_73_ci5mgu.jpg",
     "description":"the activity of performing songs or tunes by making musical sounds with the voice.",
     "rules":"1 Support. Diaphragmatic support is the true engine of singing. 2 Vowel placement. The only sound that truly grows the voice is a bright timbral sound.3 Air management. ...4 Stress relief. ...5 Psychology of singing.",
     "coordinator":"pandu naik",

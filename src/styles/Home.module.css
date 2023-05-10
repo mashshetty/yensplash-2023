@@ -849,13 +849,10 @@ align-items: center;
   align-items: center;
   padding:10px ;
 }
-
 .eventSImg{
   width: 100%;
   height: auto
 }
-
-
 .eventName{
   color: #ffc656;
   text-align: center;
@@ -866,18 +863,15 @@ align-items: center;
   font-family: "Dancing Script", cursive;
   margin-bottom: 20px;
 }
-
 .proDetailsx{
   z-index: 20;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .teamContainer{
   position: relative;
 }
-
 .proName{
   font-family: "Dancing Script", cursive;
   margin-top: 10px;
@@ -897,12 +891,10 @@ align-items: center;
   color: white;
 
 }
-
 @media screen and (max-width: 650px) {
   .nav {
     display: none;
   }
-
   .menu {
     display: flex;
     justify-content: center;
@@ -913,7 +905,6 @@ align-items: center;
     margin-right: 0px;
     border-radius: 0px;
   }
-
   .yen {
     font-size: 300%;
   }
@@ -922,45 +913,35 @@ align-items: center;
     font-size: 200%;
     margin-top: 0px;
   }
-
-
-
   .homeimg {
     width: 450px !important;
     height: 340px !important;
   }
-
   .homepageimg {
     display: none;
   }
-
   .quate {
     line-height: 66px;
     font-size: 310%;
     margin-top: -100px;
     text-align: center;
   }
-
   .legacy {
     font-size: 126%;
   }
-
   .yenx {
     font-size: 281%;
     margin-bottom: 0px;
   }
-
   .pronitecard {
     width: 320px;
   }
-
   .proimg {
     width: 88vw;
     height: 37vh;
     object-fit: cover;
     margin-top: -10px;
   }
-
   .pcontainer {
     flex-direction: column;
     overflow: hidden;
@@ -974,12 +955,10 @@ align-items: center;
     margin-left: 50%;
     transform: translate(-50%, -50%) !important;
   }
-
   .yenepoya {
     font-size: 200%;
     text-align: left;
   }
-
   .pronitecard1 {
     width: 93vw;
     margin-bottom: 20px;
@@ -992,115 +971,94 @@ align-items: center;
     width: 93vw;
     margin-bottom: 20px;
   }
-
   .imgContainer {
     overflow: scroll;
   }
-
   .galImg {
     height: auto;
     width: 94vw;
   }
-
   .abtuslogo {
     width: 100vw;
     height: auto;
   }
-
-  .aboutYen {
+.aboutYen {
     padding: 0px;
   }
-
   .homepage {
     flex-wrap: wrap;
   }
-
   .dow{
     font-size: 80%;
   }
-
   @keyframes download {
     0% {
       padding: 10px 25px;
       font-size: 100%;
       background: #6f42c1;
-    }
-  
+    } 
     50% {
       padding: 11px 30px;
       font-size: 110%;
       background: #6529d5;
     }
-  
     100% {
       padding: 10px 25px;
       font-size: 100%;
       background: #6f42c1;
     }
   }
-
   .plant{
     bottom: -218px;
   }
-
   .pronitecard1:hover {
     box-shadow: -2px 4px 43px -5px #100a78;
     transform: scale(1.0);
     margin: auto;
   }
-
   .pronitecard2:hover {
     box-shadow: -2px 4px 43px -5px #100a78;
     transform: scale(1.0);
     margin: auto;
   }
-
   .pronitecard3:hover {
     box-shadow: -2px 4px 43px -5px #100a78;
     transform: scale(1.0);
     margin: auto;
   }
-
   .prodesc{
     font-size: 100%;
-  }
-
-  
-  
+  } 
 .subaddress{
   font-size: 100%;
   margin: 2px;
 }
-
 .pronightHeader{
   font-size: 240%;
 }
-
 .ab1{
   padding: 40px;
   font-size: 100%;
 }
-
 .info {
   font-size: 100%;
   line-height:23px;
   padding: 10px;
 }
-
 .container{
   padding: 10px;
 }
-
 .eventCard{
   width: 350px;
 }
-
 .eventContainerx {
   padding: 0px;
 }
-
 .eventImage{
   height: 440px !important;
 }
-
+.copyright{
+  font-size: 80%;
+  padding: 5px;
+}
 }
