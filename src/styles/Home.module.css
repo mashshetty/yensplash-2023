@@ -50,7 +50,8 @@
   font-family: "Dancing Script", cursive;
   margin-bottom: 0px;
   margin-top: 120px;
-  z-index: 15;
+  z-index: 20;
+
 }
 
 .eventHeader{
