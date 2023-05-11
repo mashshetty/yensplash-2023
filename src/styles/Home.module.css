@@ -87,14 +87,50 @@
   background-position: 0 -1000px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: fire 4s linear infinite;
+  /* animation: fire 4s linear; */
+  animation: fire2 4s linear infinite;
 }
 @keyframes fire {
+  0% , 100% {
+    background-position: 0% -50%;
+  }
+  50% {
+    background-position: 0% -25%;
+  }
+}
+@keyframes fire2 {
   0% {
     background-position: 0% -50%;
   }
-  100% {
-    background-position: 0% -25%;
+  10% {
+    background-position: 0% -40%;
+  }
+  20% {
+    background-position: 0% -30%;
+  }
+  30% {
+    background-position: 0% -20%;
+  }
+  40% {
+    background-position: 0% -20%;
+  }
+  50% {
+    background-position: 0% 0%;
+  }
+  60% {
+    background-position: 0% 10%;
+  }
+  70% {
+    background-position: 0% 20%;
+  }
+  80% {
+    background-position: 0% 30%;
+  }
+  90% {
+    background-position: 0% 40%;
+  }
+  100%{
+    background-position: 0% 50%;
   }
 }
 

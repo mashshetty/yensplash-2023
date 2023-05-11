@@ -22,7 +22,8 @@ export default function Home() {
   useEffect(() => {
     if (videoRef.current) {
       videoRef.current.play();
-      TypingEffect();
+      // TypingEffect();
+      // setTimeout(TypingEffect, 1000);
     }
 
     const parallax = document.getElementById("parallax");
@@ -79,7 +80,7 @@ export default function Home() {
             className={`${AddClass} ? ${styles.quate} ${styles.animate} : ${styles.quate}`}
             id="demo"
           >
-            {" "}
+            EMBRACE THE LEGACY{" "}
           </div>
         </div>
         <Welcome />
