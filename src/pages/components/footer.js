@@ -1,30 +1,24 @@
-import React, { useEffect } from 'react'
 import styles from "@/styles/Home.module.css";
-import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import EmailIcon from '@mui/icons-material/Email';
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import TravelExploreIcon from '@mui/icons-material/TravelExplore';
-import Image from "next/image";
 import AOS from "aos";
 import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 function footer() {
   useEffect(() => {
-    AOS.init({duration:500})  
+    AOS.init({ duration: 100 })
   }, [])
   return (
-    <div className={styles.fcontainer}>
-     
-        <p data-aos="fade-up"  className={styles.yenepoya}>YENEPOYA INSTITUTE OF TECHNOLOGY</p>
-        <p className={styles.subaddress}>Thodar, Mijar P.O,Mangaluru Taluk -574225</p>
-        <p className={styles.subaddress}> <LocalPhoneIcon  className='icn'/> Tel: 08258 - 262733,262713</p>
-        <p className={styles.subaddress}>Fax :08258 -262733,262713</p>
-        <p className={styles.subaddress}><EmailIcon className='icn'/> Email: info@yit.edu.in</p>
-        <p className={styles.subaddress}><TravelExploreIcon className='icn'/>Web: www.yit.edu.in</p>
-        <p className={styles.copyright}>Copyright @2023 Yenspalsh. All rights reserved</p>
-        
-
-    
-    </div>
+  <footer  className={styles.fcontainer}>
+      <p data-aos="fade-up"  className={styles.yenepoya}><span>YENEPOYA</span>  <span>INSTITUTE OF TECHNOLOGY</span> </p>
+      <p className={styles.subaddress}>Thodar, Mijar Post, Mangaluru Taluk -574225</p>
+      <p className={styles.subaddress}> <LocalPhoneIcon className='icn' /> Tel: 08258 - 262733, 262713</p>
+      <p className={styles.subaddress}><EmailIcon className='icn' /> Email: <a href="mailto:info@yit.edu.in">info@yit.edu.in</a> </p>
+      <p className={styles.subaddress}><TravelExploreIcon className='icn' />Web: <a href="https://www.yit.edu.in/">www.yit.edu.in</a></p>
+      <p className={styles.copyright}>Copyright @2023 Yenspalsh. All rights reserved</p>
+    </footer>
   )
 }
 

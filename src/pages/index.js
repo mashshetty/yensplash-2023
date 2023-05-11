@@ -1,28 +1,28 @@
-import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
-import Welcome from "./components/welcome";
-import img from "../../public/YENSPLASH.png";
-import Gallery from "./components/gallery";
-import Pronite from "./components/pronite";
-import bg from "../../public/bgvideo.mp4";
-import mbg from "../../public/mobile.mp4";
-import { useEffect, useRef } from 'react';
 import AOS from "aos";
 import 'aos/dist/aos.css';
+import { Inter } from "next/font/google";
+import Head from "next/head";
+import Image from "next/image";
+import { useEffect, useRef } from 'react';
+import img from "../../public/YENSPLASH.png";
+import bg from "../../public/bgvideo.mp4";
+import mbg from "../../public/mobile.mp4";
 import EventMainpage from "./components/eventMainpage";
+import Gallery from "./components/gallery";
+import Pronite from "./components/pronite";
+import Welcome from "./components/welcome";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
 
-  
+
 
   useEffect(() => {
-    AOS.init({duration:500})
-  
-   
+    AOS.init({ duration: 500 })
+
+
   }, [])
   const videoRef = useRef(null);
   const mvideoRef = useRef(null);
@@ -32,11 +32,11 @@ export default function Home() {
       mvideoRef.current.play();
     }
 
-   
+
 
   }, []);
 
-  
+
   return (
     <>
       <Head>
@@ -46,40 +46,40 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        
-        
+
+
         <div className={styles.homepage}>
           <div className={styles.homepageimg}>
-            <video controls={false} autoPlay muted  ref={videoRef} loop={true} className={styles.homevideo}>
+            <video controls={false} autoPlay muted ref={videoRef} loop={true} className={styles.homevideo}>
               <source src={bg} type="video/mp4" />
             </video>
           </div>
           <div className={styles.mhomepageimg}>
-            <video controls={false} autoPlay muted  ref={mvideoRef} loop={true} className={styles.mhomevideo}>
+            <video controls={false} autoPlay muted ref={mvideoRef} loop={true} className={styles.mhomevideo}>
               <source src={mbg} type="video/mp4" />
             </video>
           </div>
-          <div  data-aos="fade-left">
-          <Image
-            className={styles.homeimg}
-            width="100px"
-            height="100px"
-            src={img}
-            alt="yensplash logo"
-          />
+          <div data-aos="fade-left">
+            <Image
+              className={styles.homeimg}
+              width="100px"
+              height="100px"
+              src={img}
+              alt="yensplash logo"
+            />
           </div>
-        
+
           <div className="wrapper">
-          <div  data-aos="fade-right"  className={styles.quate}>EMBRACE THE  <span className={styles.legacy}>LEGACY</span> </div>
+            <div data-aos="fade-right" className={styles.quate}>EMBRACE THE  <span className={styles.legacy}>LEGACY</span> </div>
           </div>
         </div>
         <Welcome />
         <Gallery />
-    
+
         <Pronite />
-        <EventMainpage/>
-    
-       
+        <EventMainpage />
+
+
       </main>
     </>
   );
