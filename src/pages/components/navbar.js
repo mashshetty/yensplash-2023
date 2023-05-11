@@ -1,9 +1,9 @@
-import React, { useState } from "react";
 import styles from "@/styles/Home.module.css";
 import MenuIcon from "@mui/icons-material/Menu";
-import Link from "next/link";
-import leaves from "../../../public/leavesx.png";
 import Image from "next/image";
+import Link from "next/link";
+import { useState } from "react";
+import leaves from "../../../public/leavesx.png";
 
 function navbar() {
   const [show, setShow] = useState(false);
@@ -41,7 +41,7 @@ function navbar() {
         </div>
       </div>
       <div className={styles.menu}>
-   {!show &&  <div className={styles.leaves}>
+        {!show && <div className={styles.leaves}>
           {" "}
           <Image
             src={leaves}
@@ -55,16 +55,16 @@ function navbar() {
         </span>
         {show && (
           <div className={styles.menuitems}>
-            <div onClick={e=>setShow(!show)} className={styles.navoptionx}> <Link href="/">Home</Link></div>
-            <div onClick={e=>setShow(!show)}  className={styles.navoption}>  <a href="/#pronite">
-          Pronites
-        </a></div>
-            <div onClick={e=>setShow(!show)}  className={styles.navoption}> <a href="/#gallery">
-          Gallery
-        </a></div>
-            <div onClick={e=>setShow(!show)}  className={styles.navoption}><Link href="/events">Events</Link></div>
-            <div onClick={e=>setShow(!show)}  className={styles.navoption}>Sponsors</div>
-            <div onClick={e=>setShow(!show)}  className={styles.navoption}>       <Link href="/aboutus"> About Us</Link></div>
+            <div onClick={e => setShow(!show)} className={styles.navoptionx}> <Link href="/">Home</Link></div>
+            <div onClick={e => setShow(!show)} className={styles.navoption}>  <a href="/#pronite">
+              Pronites
+            </a></div>
+            <div onClick={e => setShow(!show)} className={styles.navoption}> <a href="/#gallery">
+              Gallery
+            </a></div>
+            <div onClick={e => setShow(!show)} className={styles.navoption}><Link href="/events">Events</Link></div>
+            <div onClick={e => setShow(!show)} className={styles.navoption}>Sponsors</div>
+            <div onClick={e => setShow(!show)} className={styles.navoption}>       <Link href="/aboutus"> About Us</Link></div>
           </div>
         )}
       </div>

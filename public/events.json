@@ -17,7 +17,7 @@
       "Any act of indiscipline by participants, calls for cancellation of registration.",
       "Reel should be submitted before 9pm of 2nd Day, Link will be Expired after 9pm"
     ],
-    "judging-criteria": [
+    "judgingCriteria": [
       "Based on *Quality and creativity of the video*",
       "The Judges’ decision will be the final decision."
     ],
@@ -29,7 +29,7 @@
       "faculty": ["Raj Kiran Shetty", "Rakshith Shetty"]
     },
     "schedule": {
-      "day": "1",
+      "day": "19th May",
       "venue": "G16",
       "time": "9:30 AM"
     }
@@ -50,7 +50,7 @@
       "Languages permitted English, Kannada, Malayalam, Tulu and Hindi.",
       "The decision of the judges will be final."
     ],
-    "judging-criteria": [
+    "judgingCriteria": [
       "Originality. The uniqueness and originality of the premise or story.",
       "Creativity.",
       "Plot.",
@@ -67,7 +67,7 @@
       "faculty": ["Rakshith Shetty", "Suhail Shaha"]
     },
     "schedule": {
-      "day": "1",
+      "day": "19th May",
       "venue": "G16",
       "time": "9:30 AM"
     }
@@ -89,7 +89,7 @@
       "No edits, no filters.",
       "Judge’s decision will be final"
     ],
-    "judging-criteria": [
+    "judgingCriteria": [
       "The competition will be judged based on the creativity and quality of the images"
     ],
     "coordinators": {
@@ -100,7 +100,7 @@
       "faculty": ["Rakshith Shetty", "Raj Kiran Shetty"]
     },
     "schedule": {
-      "day": "1",
+      "day": "19th May",
       "venue": "G16",
       "time": "9:30 AM"
     }
@@ -123,7 +123,7 @@
       "In case participant arrives late to the event ,no extra time is given.",
       "Judges decision is final."
     ],
-    "judging-criteria": [
+    "judgingCriteria": [
       "Participants must apply mehendi with 60 min on both the side of one hand.Hand should be completely filled with design.Design must be attractive and unique.Cleanness must be maintained."
     ],
     "coordinators": {
@@ -134,7 +134,7 @@
       "faculty": ["Ayesha", "Nalini"]
     },
     "schedule": {
-      "day": "1",
+      "day": "19th May",
       "venue": "SLH02",
       "time": "11:30 AM – 12:30 PM"
     }
@@ -152,7 +152,7 @@
       "Only Rangoli color powders can be used for making Rangoli.",
       "The participants will not be allowed to refer to any printed material etc. for preparing Rangoli."
     ],
-    "judging-criteria": [
+    "judgingCriteria": [
       "Overall Appearance and appeal",
       "Details and Clarity in Rangoli art.",
       "Colour combination.",
@@ -166,7 +166,7 @@
       "faculty": ["Vinitha D’souza", "Shree Raksha"]
     },
     "schedule": {
-      "day": "1",
+      "day": "19th May",
       "venue": "2ND Floor Cubical",
       "time": "11:30 AM – 1:30 PM"
     }
@@ -188,7 +188,7 @@
       "There will be certain time span for each round.",
       "The participants are not permitted to use cell phones or other electronic devices."
     ],
-    "judging-criteria": ["Quiz master's decision is final."],
+    "judgingCriteria": ["Quiz master's decision is final."],
     "coordinators": {
       "students": [
         { "name": "Thafsira", "phone": "8660152454" },
@@ -199,7 +199,7 @@
       "faculty": ["Prabha"]
     },
     "schedule": {
-      "day": "1",
+      "day": "19th May",
       "venue": "Seminar hall",
       "time": "2:00 PM – 3:00 PM"
     }
@@ -225,7 +225,7 @@
       "Topic of the debate will be announced on spot.",
       "Reading from paper and vulgar words is strictly prohibited"
     ],
-    "judging-criteria": [
+    "judgingCriteria": [
       "Participants will be judged based on their organisation of thoughts, clarity, reasoning, research and speaking skills.",
       "The decision of the judge will be final."
     ],
@@ -237,7 +237,7 @@
       "faculty": ["Pallavi", "Sangeetha"]
     },
     "schedule": {
-      "day": "1",
+      "day": "19th May",
       "venue": "SLH01",
       "time": "2:00 PM – 3:00 PM"
     }
@@ -259,7 +259,7 @@
       "Use of stencils, stamps and masks are not allowed.",
       "Participants should bring own partners to face paint."
     ],
-    "judging-criteria": [
+    "judgingCriteria": [
       "Creativity and originality.",
       "Quality - composition, design elements and colour – do they all work well together",
       "Clarity of them",
@@ -273,7 +273,7 @@
       "faculty": ["Akshatha N M", "Raksha"]
     },
     "schedule": {
-      "day": "1",
+      "day": "19th May",
       "venue": "SLH02",
       "time": "2:00 PM – 3:00 PM"
     }
@@ -293,7 +293,7 @@
       "Any behavior deemed inappropriate by the organizers or the judges will result in immediate disqualification.",
       "The judges' decision will be final, and no appeals or objections will be entertained."
     ],
-    "judging-criteria": [
+    "judgingCriteria": [
       "Style and Fashion Sense",
       "Confidence and stage presence",
       "Walk and posture",
@@ -309,7 +309,7 @@
       "faculty": ["Deeksha K R", "Harikanth"]
     },
     "schedule": {
-      "day": "2",
+      "day": "20th May",
       "venue": "Concert Stage",
       "time": "12:30 PM- 2:00 PM"
     }
@@ -329,7 +329,7 @@
       "At the end of each round 2 teams with less score will be disqualified.",
       "There will be time limit of 2 minutes for every question asked"
     ],
-    "judging-criteria": [
+    "judgingCriteria": [
       "A team will be judged on the basis of right answers given by the team"
     ],
     "coordinators": {
@@ -340,7 +340,7 @@
       "faculty": ["Praveen"]
     },
     "schedule": {
-      "day": "2",
+      "day": "20th May",
       "venue": "Seminar Hall",
       "time": "1:00 PM – 2:00 PM"
     }
@@ -365,7 +365,7 @@
       "Once your team gets eliminated, you will have to leave the venue immediately.",
       "Wifi will be provided."
     ],
-    "judging-criteria": ["The last team to survive wins."],
+    "judgingCriteria": ["The last team to survive wins."],
     "coordinators": {
       "students": [
         { "name": "Mohammed mufeez", "phone": "7624852700" },
@@ -374,7 +374,7 @@
       "faculty": ["Ganapathi"]
     },
     "schedule": {
-      "day": "2",
+      "day": "20th May",
       "venue": "MAD Lab-1ST Floor",
       "time": "1:00 PM – 4:30 PM"
     }
@@ -397,7 +397,7 @@
       "Once your team gets eliminated, you will have to leave the venue immediately.",
       "No team ups allowed if found spot elimination will be done."
     ],
-    "judging-criteria": ["The First team to win 13 rounds will win the game."],
+    "judgingCriteria": ["The First team to win 13 rounds will win the game."],
     "coordinators": {
       "students": [
         { "name": "Shaikh Mohammed Yaasar", "phone": "6363827044" },
@@ -406,7 +406,7 @@
       "faculty": ["Basavaraj"]
     },
     "schedule": {
-      "day": "2",
+      "day": "20th May",
       "venue": "MAD Lab-1ST Floor",
       "time": "1:00 PM – 4:30 PM"
     }
@@ -429,7 +429,7 @@
       "Individual participants only.",
       "Participants must bring the required products (Rubik’s cube, Stop watch or Mobile)."
     ],
-    "judging-criteria": [
+    "judgingCriteria": [
       "Observation skill.",
       "The time taken by the participants to achieve the given pattern."
     ],
@@ -441,7 +441,7 @@
       "faculty": ["Gangadhar"]
     },
     "schedule": {
-      "day": "2",
+      "day": "20th May",
       "venue": "SLH01",
       "time": "1:00 PM – 2:00 PM"
     }
@@ -466,7 +466,7 @@
       "The organizers retain the right to modify any aspect of the event being conducted.",
       "If any music to be played for the show, the music should be uploaded to a personal pendrive and should be given to the sound system operator before respective show starts and a student should be available to play the music."
     ],
-    "judging-criteria": [
+    "judgingCriteria": [
       "Audience engaging power.",
       "Concept of the Ad",
       "Creativity",
@@ -482,7 +482,7 @@
       "faculty": ["Pradeep Udupa", "Guruprasad"]
     },
     "schedule": {
-      "day": "2",
+      "day": "20th May",
       "venue": "Seminar Hall",
       "time": "2:00 PM – 3:00 PM"
     }
@@ -514,7 +514,7 @@
       "Registrations can be done prior to the event.",
       "No books or any gadget are allowed, PC will be provided."
     ],
-    "judging-criteria": [
+    "judgingCriteria": [
       "Participants will be judged based on their performance, time management, coding skills.",
       "Team who clears all rounds will be the winner."
     ],
@@ -526,7 +526,7 @@
       "faculty": ["Abdul Majid", "Sanjeev Kulkarni"]
     },
     "schedule": {
-      "day": "2",
+      "day": "20th May",
       "venue": "DS Lab -3rd Floor",
       "time": "1:30 PM-2:30 PM"
     }
@@ -549,7 +549,7 @@
       "Participants should not use any slang's language.",
       "Background music can be used but should be played by participant only."
     ],
-    "judging-criteria": [
+    "judgingCriteria": [
       "The participants will be judged on the voice quality, clarity, rhythm and their appeal to the audience.",
       "Scores will be deducted for exceeding the time limit."
     ],
@@ -561,7 +561,7 @@
       "faculty": ["Naziya", "Ayesha"]
     },
     "schedule": {
-      "day": "2",
+      "day": "20th May",
       "venue": "SLH02",
       "time": "2:00 PM – 3:00 PM"
     }
@@ -587,7 +587,7 @@
       "Plagiarized found in any context will lead to immediate disqualification.",
       "Decision of the judges will be final in all regards."
     ],
-    "judging-criteria": [
+    "judgingCriteria": [
       "Target market and problem solving capability.",
       "Creativity and uniqueness in the idea proposed.",
       "Soft skills and presentation."
@@ -601,7 +601,7 @@
       "faculty": ["Yogesh Rao", "Sudhir"]
     },
     "schedule": {
-      "day": "2",
+      "day": "20th May",
       "venue": "SLH01",
       "time": "3:00 PM – 4:00 PM"
     }
@@ -623,7 +623,7 @@
       "Points will be awarded based on the accuracy and speed of the typed sentence. Points will be deducted for any errors or typos.",
       "The event consists of multiple rounds, and the player with the most points at the end of the event wins"
     ],
-    "judging-criteria": [
+    "judgingCriteria": [
       "The event consists of multiple rounds, and the player with the most points at the end of the event wins.The judges decision is final."
     ],
     "coordinators": {
@@ -634,7 +634,7 @@
       "faculty": ["Asif Mulla"]
     },
     "schedule": {
-      "day": "2",
+      "day": "20th May",
       "venue": "CN Lab-4th Floor",
       "time": "2:30 PM – 3:30 PM"
     }
@@ -655,7 +655,7 @@
       "Each Participant should maintain the dance streak of minimum 45 seconds to 1 minute.",
       "There are no preliminary rounds , every round will be noted as eliminatory round.Judges decision is final."
     ],
-    "judging-criteria": [
+    "judgingCriteria": [
       "Musicality: How well a breaker/participant connects with and expresses the music through their dance.",
       "Foundation: Showcasing mastery of the basics top rock and footwork steps, go downs, transitions, freezes",
       "Character: How well a breaker/participant expresses their personality through their dance.",
@@ -672,7 +672,7 @@
       "faculty": ["Seetha Laxmi", "Namratha"]
     },
     "schedule": {
-      "day": "2",
+      "day": "20th May",
       "venue": "Car Parking Area",
       "time": "4:00 PM -5:00 PM"
     }
@@ -694,7 +694,7 @@
       "Instruments can be used but should be played by participant only.",
       "Decision of the judges will be final and binding"
     ],
-    "judging-criteria": [
+    "judgingCriteria": [
       "The participants will be judged on the song selection, voice quality, clarity, rhythm and their appeal to the audience.",
       "Scores will be deducted for exceeding the time limit."
     ],
@@ -706,7 +706,7 @@
       "faculty": ["Ashitha Shetty", "Thripthi B Shetty"]
     },
     "schedule": {
-      "day": "3",
+      "day": "21st May",
       "venue": "Concert Stage",
       "time": "9:00 AM -10:30 AM"
     }
@@ -726,7 +726,7 @@
       "Harmful props or flammable items are prohibited.",
       "Any performance observed with vulgarity, obscenity, religious & political will lead to immediate disqualification."
     ],
-    "judging-criteria": [
+    "judgingCriteria": [
       "Participants will be judged on their creativity and performance.",
       "Judges decision will be final and binding."
     ],
@@ -739,7 +739,7 @@
       "faculty": ["Raghavendra", "Manjunath Raikar"]
     },
     "schedule": {
-      "day": "3",
+      "day": "21st May",
       "venue": "Concert Stage",
       "time": "10:30 AM-12:30 PM"
     }
@@ -761,7 +761,7 @@
       "For gropu dance Group can consist maximum 10 members in a team( minimum of 3 members in a team).",
       "The decision of the judges will be final."
     ],
-    "judging-criteria": [
+    "judgingCriteria": [
       "Participants will be judged based on Choreography, Synchronization, Costumes, Facial expression and Creativity."
     ],
     "coordinators": {
@@ -772,7 +772,7 @@
       "faculty": ["Pallavi", "Sashma"]
     },
     "schedule": {
-      "day": "3",
+      "day": "21st May",
       "venue": "Concert Stage",
       "time": "2:30 PM – 4:00 PM"
     }
@@ -795,7 +795,7 @@
       "Clues will be provided to the teams and participants are expected to solve the case.",
       "Each team leader should pin identity card provided, while the team is in action.."
     ],
-    "judging-criteria": [
+    "judgingCriteria": [
       "The team which will solve the mystery will be the winner.",
       "Judges decisions will be final."
     ],
@@ -810,7 +810,7 @@
       "faculty": ["Harikanth", "Prasanna S R"]
     },
     "schedule": {
-      "day": "3",
+      "day": "21st May",
       "venue": "Seminar Hall",
       "time": "9:15 AM-2:30 AM"
     }
@@ -833,7 +833,7 @@
       "Only participants will be allowed inside the venue of competition. Spectators will not be entertained inside the venue once the competition begins. • Usage of mobile phones will not be considered.",
       "Time limit: 1hour 30 minutes."
     ],
-    "judging-criteria": [
+    "judgingCriteria": [
       "Evaluation is based on the taste, hygiene and presentation, unique name of the dish.",
       "There shall be minimum 2 and maximum 3 varieties of dishes.",
       "The decision of the judges will be final."
@@ -846,7 +846,7 @@
       "faculty": ["Akshata G", "Shashi Rekha"]
     },
     "schedule": {
-      "day": "3",
+      "day": "21st May",
       "venue": "Chemistry Lab",
       "time": "9:15 AM - 10:30 AM"
     }
@@ -868,7 +868,7 @@
       "Participants are requested to bring their own stationery (paints, crayons, etc)",
       "Sheets will be provided by the coordinators."
     ],
-    "judging-criteria": [
+    "judgingCriteria": [
       "Participants will be judged based on their creativity, originality and presentation.",
       "Participants will be disqualified if they exceed the time limit."
     ],
@@ -880,7 +880,7 @@
       "faculty": ["Pranitha"]
     },
     "schedule": {
-      "day": "3",
+      "day": "21st May",
       "venue": "SLH01",
       "time": "11:00 AM - 12:00 PM"
     }
@@ -903,7 +903,7 @@
       "Violation of any of the above rules shall lead to disqualification of the participant.",
       "Participants will be judged on creativity, utilization of resources, design and overall presentation."
     ],
-    "judging-criteria": [
+    "judgingCriteria": [
       "Participants would be judged on creativity, utilization of resources, an artistic composition of materials, the utility of the product, and overall presentation."
     ],
     "coordinators": {
@@ -914,7 +914,7 @@
       "faculty": ["Nazia"]
     },
     "schedule": {
-      "day": "3",
+      "day": "21st May",
       "venue": "3RD Floor Cubical",
       "time": "10:00 AM – 12:00 PM"
     }
@@ -929,7 +929,7 @@
       "Usage of words that hurts the sentiments of any person or religion is strictly prohibited.",
       "Performing by reading the scripts using references like books or mobiles are not allowed."
     ],
-    "judging-criteria": [
+    "judgingCriteria": [
       "Participants will be judged on the basis of content, fluency, presentation & sense of humor."
     ],
     "coordinators": {
@@ -940,7 +940,7 @@
       "faculty": ["Pandu Naik", "Sleeba Mathew"]
     },
     "schedule": {
-      "day": "3",
+      "day": "21st May",
       "venue": "Seminar Hall",
       "time": "1:00 PM – 2:00 PM"
     }
@@ -959,7 +959,7 @@
       "Topic will be given on the spot.",
       "Drawing sheets will be provided."
     ],
-    "judging-criteria": [
+    "judgingCriteria": [
       "Judging Criteria Judging will be based on creativity, uniqueness of the depicted theme and Interpretation and clarity of the theme to the viewer."
     ],
     "coordinators": {
@@ -970,7 +970,7 @@
       "faculty": ["Harshitha", "Pavitra"]
     },
     "schedule": {
-      "day": "3",
+      "day": "21st May",
       "venue": "Physics lab",
       "time": "2:00 PM – 3:00 PM"
     }
@@ -1003,7 +1003,7 @@
       "Participants should not damage any properties or components.",
       "Any form of inappropriate behaviour will not be tolerated"
     ],
-    "judging-criteria": [
+    "judgingCriteria": [
       "Accuracy in circuit debugging",
       "Efficient use of resources and time in debugging",
       "Problem solving skills",
@@ -1018,7 +1018,7 @@
       "faculty": ["Harsha C J", "Rebecca"]
     },
     "schedule": {
-      "day": "3",
+      "day": "21st May",
       "venue": "Machine lab",
       "time": "12:00 PM – 1:30 PM"
     }

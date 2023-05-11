@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700;1,800;1,900&family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Lato:wght@400;700&family=Montserrat:wght@400;600;700;800;900&family=Salsa&display=swap');
 
 @font-face {
   font-family: 'logofont';
@@ -67,14 +66,7 @@
   margin-bottom: -20px;
 }
 
-.eventHeaderx {
-  font-family: "Dancing Script", cursive;
-  color: #ffc656;
-  text-align: center;
-  font-size: 450%;
-  margin-top: 70px;
 
-}
 
 .evHeader {
   font-family: "Dancing Script", cursive;
@@ -637,16 +629,7 @@
   margin-inline: 0px;
 }
 
-.knowMore {
-  background: #09064c !important;
-  color: white !important;
-  padding: 5px 10px !important;
-}
 
-.knowMore:hover {
-  background: #0f0a74;
-  padding: 5px 10px;
-}
 
 .proimg {
   width: 322px;
@@ -784,37 +767,11 @@
 
 
 
-.eventContainerx {
-  position: relative;
-  top: 30px;
-  padding: 30px 30px;
-  background: #09064c;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-}
 
-.eventCard {
-  position: relative;
-  width: 350px;
-  height: 500px;
-  background: white;
-  box-shadow: 5px 5px 25px -7px black;
-  background: #d9d7ff;
-  overflow: hidden;
-  margin: 20px;
-  border: 1px solid grey;
-}
 
-.eventBG {
-  position: absolute;
-  /* bottom: 1px; */
-  top: 0px;
-  opacity: 0.2;
-  filter: blur(1px);
 
-}
+
+
 
 .eventImage {
   transform: rotate(-30deg);
@@ -842,28 +799,8 @@
   font-weight: 600;
 }
 
-.rotatedcard {
-  top: 0px;
-  position: absolute;
-  left: -20px;
-  height: 399px;
-  width: 549px;
-  transform: rotate(30deg);
-  background: rgb(255, 255, 255);
-  top: -90px;
-  overflow: hidden;
-}
-
-.eventBottom {
-  font-family: "Dancing Script", cursive;
-  color: #dfbb75;
-  font-weight: 800;
-  position: absolute;
 
 
-  bottom: 0px;
-  padding: 20px;
-}
 
 
 
@@ -884,9 +821,6 @@
   align-items: center;
 }
 
-.eventHeaders {
-  font-family: 'comfortaa', cursive !important;
-}
 
 .teamContainer {
   position: relative;
@@ -908,13 +842,6 @@
 
 .mhomepageimg {
   display: none;
-}
-
-.eventDetailsx {
-  padding: 10px;
-  font-size: 100%;
-  color: white;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 @media screen and (max-width: 650px) {
@@ -1129,9 +1056,7 @@
     padding: 0px;
   }
 
-  .eventImage {
-    height: 440px !important;
-  }
+
 
   .copyright {
     font-size: 80%;
@@ -1228,85 +1153,239 @@
 
   .subaddress,
   .copyright {
-    font-size: 3vw;
+    font-size: 3.3vw;
   }
 }
 
 
 /* styling for footer ends */
 
-
-
-/* event page styling */
-.infoContainer {
-
-  position: relative;
-  padding: 10px 10px;
-  padding-top: 70px;
-  background: #09064c;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
+@media screen and (width<767px) {
+  .leaves {
+    display: none;
+  }
 
 }
 
-.eventDesc {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+
+
+/* event details page styling */
+
+
+
+.eventPage {
+  background-image: linear-gradient(45deg, rgb(11, 23, 80), rgb(41, 46, 140), rgb(17, 17, 88));
+  display: grid;
+  grid-template-areas:
+    'image name'
+    'image details'
+    'schedule details'
+    'xx details'
+  ;
+  grid-auto-rows: minmax(100px, auto);
+  grid-template-columns: 3fr 4fr;
+  justify-items: center;
+  align-items: start;
+  gap: 1rem;
+  padding: 100px 20px 20px 20px;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.eventLeft,
-.eventRight {
-  flex: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-}
-
-.eventLeft {
-  display: flex;
-  flex-direction: column;
-}
-
-.schedule {
-  display: flex;
-  padding: 1rem;
-  gap: 2rem;
-}
-
-.eventSImg {
-  width: 100%;
-  height: auto
+.eventsImg {
+  grid-area: image;
+  width: 80%;
+  aspect-ratio: 6/5;
+  align-self: center;
+  margin-top: 100px;
 }
 
 .eventName {
+  grid-area: name;
+  font-family: 'Salsa', cursive;
+  text-align: center;
+}
+
+.eventName p {
+  font-size: 3rem;
+}
+
+.eventName span {
+  font-size: 1.5rem;
+}
+
+.eventDescription {
+  grid-area: details;
+  display: grid;
+  gap: 1rem;
+}
+
+.eventDetailTitle {
+  font-size: 1.5rem;
+  margin-block: 20px 10px;
+}
+
+.eventDetailsList {
+  padding-left: 0.5rem;
+  text-align: justify;
+}
+
+.eventDetailsList>* {
+  margin-block: 5px;
+}
+
+.eventDetailsContainer:nth-child(1) .eventDetailsList {
+  padding-left: 0;
+}
+
+.eventSchedule {
+  grid-area: schedule;
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.eventSchedule p {
+  display: flex;
+  background-color: rgba(72, 91, 175, 0.363);
+  align-items: center;
+  padding: 8px 16px;
+  border-radius: 10px;
+}
+
+@media screen and (width<767px) {
+  .eventPage {
+    grid-template-areas:
+      'image'
+      'name'
+      'schedule'
+      'details'
+      'coordinator'
+    ;
+    grid-template-rows: none;
+    grid-template-columns: none;
+    grid-auto-rows: unset;
+  }
+
+  .eventsImg {
+    width: min(100%, 450px);
+    margin: 0;
+  }
+
+  .eventName p {
+    font-size: 8vw;
+  }
+
+  .eventName span {
+    font-size: 5vw;
+  }
+
+  .eventDetailTitle {
+    font-size: 1.4rem;
+  }
+
+  .eventSchedule {
+    margin-top: 10px;
+    gap: 10px;
+    justify-content: start;
+    font-size: 0.9rem;
+  }
+}
+
+/* event details page styling ends */
+
+/* all event page stling */
+.eventContainerx {
+  position: relative;
+  top: 30px;
+  padding: 30px 30px;
+  background: #09064c;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.eventHeaderx {
+  font-family: "Dancing Script", cursive;
   color: #ffc656;
   text-align: center;
-  font-size: 300%;
+  font-size: 450%;
+  margin-top: 70px;
+
+}
+
+.eventCard {
+  position: relative;
+  width: 350px;
+  height: 500px;
+  background: white;
+  box-shadow: 5px 5px 25px -7px black;
+  background: #d9d7ff;
+  overflow: hidden;
+  margin: 20px;
+  border: 1px solid grey;
+}
+
+.eventBG {
+  position: absolute;
+  /* bottom: 1px; */
+  top: 0px;
+  opacity: 0.2;
+  filter: blur(1px);
+
+}
+
+.rotatedcard {
+  top: 0px;
+  position: absolute;
+  left: -20px;
+  height: 399px;
+  width: 549px;
+  transform: rotate(30deg);
+  background: rgb(255, 255, 255);
+  top: -90px;
+  overflow: hidden;
+}
+
+.eventImage {
+  height: 440px !important;
+}
+
+.eventBottom {
+  font-family: "Dancing Script", cursive;
+  color: #dfbb75;
   font-weight: 800;
-  letter-spacing: 5px;
-  margin-bottom: 20px;
-  font-family: 'Salsa', cursive;
-  margin-bottom: 20px;
+  position: absolute;
+
+
+  bottom: 0px;
+  padding: 20px;
 }
 
-.aliasName {
-  display: block;
-  font-size: 50%;
+.eventHeaders {
+  font-family: 'comfortaa', cursive !important;
 }
 
-.sd {
+.eventDetailsx {
+  padding: 10px;
+  font-size: 100%;
+  color: white;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.eventPage {
-  height: 500px;
-  background-image: linear-gradient(45deg, rgb(11, 23, 80), rgb(41, 46, 140), rgb(17, 17, 88));
+.knowMore {
+  background: #09064c !important;
+  color: white !important;
+  padding: 5px 10px !important;
 }
 
-/* event page styling ends */
+.knowMore:hover {
+  background: #0f0a74;
+  padding: 5px 10px;
+}
+
+/* all event page stling ends */

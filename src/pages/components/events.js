@@ -1,8 +1,6 @@
-import React, { useEffect, useRef, useState } from "react";
-import Image from "next/image";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import styles from "@/styles/Home.module.css";
+import "aos/dist/aos.css";
+import { useEffect, useRef, useState } from "react";
 
 const images = [
   "https://res.cloudinary.com/ddq3nzfq8/image/upload/v1683177902/logori_xqmafa.jpg",
@@ -57,7 +55,7 @@ function events() {
     return () => container.removeEventListener('scroll', handleScroll);
   }, [scrollPosition]);
 
-  
+
 
   return (
     <div className={styles.evcontainer}>
@@ -65,7 +63,7 @@ function events() {
 
       <div id="mash"
         ref={containerRef}
-   
+
         className={styles.eventContainer}
       >
         {images.map((item, index) => {
