@@ -12,20 +12,22 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
+import Link from 'next/link';
 
 function pronite() {
+  const handleDownload = (event) => {
+    event.preventDefault();
+    const fileUrl = '/rulebook.pdf';
+    const fileName = 'myfile.pdf';
+    const link = document.createElement('a');
+    link.href = fileUrl;
+    link.setAttribute('download', fileName);
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   
-  // useEffect(() => {
-  //   function handleScroll() {
-  //     console.log('Window was scrolled');
-  //   }
 
-  //   window.addEventListener('scroll', handleScroll);
-
-  //   return () => {
-  //     window.removeEventListener('scroll', handleScroll);
-  //   };
-  // }, []);
   return (
     <>
     <section id="pronite">
@@ -103,15 +105,15 @@ function pronite() {
               </div>
               <div className={styles.viewmore}>
                 <div className={styles.mr}>
-                  <InstagramIcon fontSize="large" />
+                  <InstagramIcon className="sicn" fontSize="large" />
                 </div>
                 <div className={styles.mr}>
                   {" "}
-                  <FacebookIcon fontSize="large" />
+                  <FacebookIcon className="sicn" fontSize="large" />
                 </div>
                 <div className={styles.mr}>
                   {" "}
-                  <TwitterIcon fontSize="large" />
+                  <TwitterIcon className="sicn" fontSize="large" />
                 </div>
               </div>
             </div>
@@ -162,8 +164,10 @@ function pronite() {
         </div>
         <div data-aos="fade-up" className={styles.download}>  
         
-         <span className={styles.dow}> Download Brochure</span>
-
+        <a href="/rulebook.pdf" onClick={handleDownload}>
+        <span className={styles.dow}>    Download Brochure</span>
+     
+    </a>
          
 
           

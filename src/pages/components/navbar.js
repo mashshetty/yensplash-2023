@@ -55,16 +55,16 @@ function navbar() {
         </span>
         {show && (
           <div className={styles.menuitems}>
-            <div className={styles.navoptionx}> <Link href="/">Home</Link></div>
-            <div className={styles.navoption}>  <a href="/#pronite">
+            <div onClick={e=>setShow(!show)} className={styles.navoptionx}> <Link href="/">Home</Link></div>
+            <div onClick={e=>setShow(!show)}  className={styles.navoption}>  <a href="/#pronite">
           Pronites
         </a></div>
-            <div className={styles.navoption}> <a href="/#gallery">
+            <div onClick={e=>setShow(!show)}  className={styles.navoption}> <a href="/#gallery">
           Gallery
         </a></div>
-            <div className={styles.navoption}><Link href="/events">Events</Link></div>
-            <div className={styles.navoption}>Sponsors</div>
-            <div className={styles.navoption}>       <Link href="/aboutus"> About Us</Link></div>
+            <div onClick={e=>setShow(!show)}  className={styles.navoption}><Link href="/events">Events</Link></div>
+            <div onClick={e=>setShow(!show)}  className={styles.navoption}>Sponsors</div>
+            <div onClick={e=>setShow(!show)}  className={styles.navoption}>       <Link href="/aboutus"> About Us</Link></div>
           </div>
         )}
       </div>

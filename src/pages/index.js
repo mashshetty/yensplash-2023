@@ -11,6 +11,7 @@ import mbg from "../../public/mobile.mp4";
 import { useEffect, useRef } from 'react';
 import AOS from "aos";
 import 'aos/dist/aos.css';
+import EventMainpage from "./components/eventMainpage";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -68,13 +69,15 @@ export default function Home() {
           />
           </div>
         
-
+          <div className="wrapper">
           <div  data-aos="fade-right"  className={styles.quate}>EMBRACE THE  <span className={styles.legacy}>LEGACY</span> </div>
+          </div>
         </div>
         <Welcome />
         <Gallery />
     
         <Pronite />
+        <EventMainpage/>
     
        
       </main>

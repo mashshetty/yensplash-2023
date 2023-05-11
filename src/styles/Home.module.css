@@ -66,10 +66,17 @@
   color: #ffc656;
   text-align: center;
   font-size: 450%;
-  margin-top: 20px;
-  margin-bottom: -20px;
+  margin-top: 70px;
+  
 }
 
+.evHeader{
+  font-family: "Dancing Script", cursive;
+  color: #ffc656;
+  text-align: center;
+  font-size: 450%;
+  
+}
 
 
 .legacy {
@@ -253,7 +260,7 @@
   animation-iteration-count: infinite;
   width: 700px !important;
   height: 500px !important;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .homepageimg {
@@ -335,6 +342,20 @@
   transition-timing-function: ease-in-out;
   transition-timing-function: linear;
 }
+.dowx{
+  background: #6f42c1 !important;
+  padding: 10px 25px;
+  cursor: pointer;
+  box-shadow: 5px 5px 25px -7px black;
+  border-radius: 25px;
+  color: white;
+  top: 20px;
+  animation-name: download;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transition-timing-function: ease-in-out;
+  transition-timing-function: linear;
+}
 .plant {
   position: absolute;
   margin-bottom: 200px;
@@ -353,6 +374,10 @@
   /* margin-top: -80px; */
   transform: skewY(-20deg);
   box-shadow: 3px 1px 16px 3px black;
+}
+.exBtn{
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .galImg {
@@ -630,6 +655,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
 .pd {
@@ -713,6 +739,7 @@
 
 .viewmore {
   margin-top: 10px;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
   color: white;
@@ -1023,6 +1050,7 @@ align-items: center;
   .galImg {
     /* height: auto; */
     width: 94vw;
+    object-fit: cover;
   }
   .abtuslogo {
     width: 100vw;
@@ -1117,6 +1145,14 @@ padding: 7px;
 padding-bottom: 20px;
 padding-top: 20px;
 }
+
+
+.proimg:hover {
+  
+  transform: scale(1.0);
+}
+
+
 
 
 }
