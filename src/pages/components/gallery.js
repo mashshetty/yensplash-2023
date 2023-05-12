@@ -67,14 +67,7 @@ function gallery() {
     <section id="gallery">
     <div className={styles.container}>
         <h1 data-aos="fade-down" className={styles.yenx}> <span className={styles.glimpse}>Glimpses of</span>  Yenspalsh <span className={styles.year}>2022!!</span> </h1>
-    {/* <Slider {...settings}>
-        {images.map((image) => (
-          <div key={image}>
-            <img src={image} alt="" />
-            
-          </div>
-        ))}
-      </Slider> */}
+   
       <img className={styles.galBgImg} src={images[imgIndex]} alt="img" />
 <div data-aos="fade-up" className={styles.imgContainer}>
 
