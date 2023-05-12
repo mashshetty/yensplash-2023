@@ -956,6 +956,326 @@ align-items: center;
   color: white;
 
 }
+
+/* styling for footer */
+
+.fcontainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px 0px 20px;
+  font-family: var(--font-mono);
+  background: #09064c;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.yenepoya {
+  font-size: 300%;
+  color: #ffc147;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.subaddress {
+  color: rgb(222, 222, 222);
+  font-size: 120%;
+  font-weight: 400;
+  opacity: 0.9;
+  margin: 5px;
+  letter-spacing: 1px;
+}
+
+.copyright {
+  color: white;
+  background: #02002b;
+  font-size: 120%;
+  width: 100vw;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 10px 10px;
+  margin-top: 20px;
+
+}
+
+@media screen and (width<768px) {
+  .fcontainer {
+    padding: 10px 5px 0px 5px;
+  }
+
+  .yenepoya {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .yenepoya span:nth-child(1) {
+    font-size: 10vw;
+  }
+
+  .yenepoya span:nth-child(2) {
+    font-size: 4vw;
+  }
+
+
+  .subaddress,
+  .copyright {
+    font-size: 3.3vw;
+  }
+}
+
+
+/* styling for footer ends */
+
+@media screen and (width<767px) {
+  .leaves {
+    display: none;
+  }
+
+}
+
+
+
+/* event details page styling */
+
+
+
+.eventPage {
+  background-image: linear-gradient(45deg, rgb(11, 23, 80), rgb(41, 46, 140), rgb(17, 17, 88));
+  display: grid;
+  grid-template-areas:
+    'image name'
+    'image details'
+    'schedule details'
+    'xx details'
+  ;
+  grid-auto-rows: minmax(100px, auto);
+  grid-template-columns: 3fr 4fr;
+  justify-items: center;
+  align-items: start;
+  gap: 1rem;
+  padding: 100px 20px 20px 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.eventsImg {
+  grid-area: image;
+  width: 80%;
+  aspect-ratio: 6/5;
+  align-self: center;
+  margin-top: 100px;
+}
+
+.eventName {
+  grid-area: name;
+  font-family: 'Salsa', cursive;
+  text-align: center;
+}
+
+.eventName p {
+  font-size: 3rem;
+}
+
+.eventName span {
+  font-size: 1.5rem;
+}
+
+.eventDescription {
+  grid-area: details;
+  display: grid;
+  gap: 1rem;
+}
+
+.eventDetailTitle {
+  font-size: 1.5rem;
+  margin-block: 20px 10px;
+}
+
+.eventDetailsList {
+  padding-left: 0.5rem;
+  text-align: justify;
+}
+
+.eventDetailsList>* {
+  margin-block: 5px;
+}
+
+.eventDetailsContainer:nth-child(1) .eventDetailsList {
+  padding-left: 0;
+}
+
+.eventSchedule {
+  grid-area: schedule;
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.eventSchedule p {
+  display: flex;
+  background-color: rgba(72, 91, 175, 0.363);
+  align-items: center;
+  padding: 8px 16px;
+  border-radius: 10px;
+}
+
+@media screen and (width<767px) {
+  .eventPage {
+    grid-template-areas:
+      'image'
+      'name'
+      'schedule'
+      'details'
+      'coordinator'
+    ;
+    grid-template-rows: none;
+    grid-template-columns: none;
+    grid-auto-rows: unset;
+  }
+
+  .eventsImg {
+    width: min(100%, 450px);
+    margin: 0;
+  }
+
+  .eventName p {
+    font-size: 8vw;
+  }
+
+  .eventName span {
+    font-size: 5vw;
+  }
+
+  .eventDetailTitle {
+    font-size: 1.4rem;
+  }
+
+  .eventSchedule {
+    margin-top: 10px;
+    gap: 10px;
+    justify-content: start;
+    font-size: 0.9rem;
+  }
+}
+
+/* event details page styling ends */
+
+/* all event page stling */
+.eventContainerx {
+  position: relative;
+  background: #09064c;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 20px;
+}
+
+.eventHeaderx {
+  color: #ffc656;
+  text-align: center;
+  font-size: 300%;
+  margin-top: 100px;
+}
+
+.eventCard {
+  position: relative;
+  width: 300px;
+  aspect-ratio: 7/10;
+  background: white;
+  box-shadow: 5px 5px 25px -7px black;
+  background: #d9d7ff4a;
+  overflow: hidden;
+  margin: 20px;
+  border: 1px solid grey;
+}
+
+
+
+.eventImagecard {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+.eventBottom {
+  color: #dfbb75;
+  background-color: rgb(173, 180, 217);
+  backdrop-filter: blur(2px);
+  position: absolute;
+  bottom: 0px;
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+
+.eventHeader {
+  font-family: 'Montserrat', sans-serif;
+  color: #664f09;
+  font-size: 1.5rem;
+  padding-left: 2px;
+
+}
+
+.eventDetails {
+  color: #010e39;
+  font-size: 100%;
+  font-weight: 600;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  padding: 0;
+
+
+}
+
+.eventDetails span {
+  display: flex;
+  align-items: center;
+  line-height: 0.5rem;
+}
+
+.eventDetails span:nth-child(2) {
+  margin-block: 10px;
+}
+
+.icon {
+  font-size: 1rem;
+}
+
+.knowMore {
+  background: #09064c !important;
+  color: white !important;
+  padding: 5px 10px !important;
+  font-size: 0.8rem;
+  position: relative;
+  left: 100%;
+  transform: translateX(-100%);
+}
+
+.knowMore:hover {
+  background: #0f0a74;
+  padding: 5px 10px;
+}
+
+/* all event page stling ends */
+
+
+
 @media screen and (max-width: 650px) {
   .nav {
     display: none;
