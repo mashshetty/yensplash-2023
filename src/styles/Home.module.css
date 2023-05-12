@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap"); */
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Lato:wght@400;700&family=Montserrat:wght@400;600;700;800;900&family=Salsa&display=swap');
 .main {
@@ -1458,7 +1458,7 @@ align-items: center;
 }
 
 .pronightHeader {
-  margin-top: -82px;
+  margin-top: -42px;
 }
 
 .wcontainer{
@@ -1475,7 +1475,7 @@ padding-top: 20px;
 
 
 .galBgImg{
-  display: none;
+  /* display: none; */
 }
 
 .galImg3{
