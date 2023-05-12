@@ -12,7 +12,7 @@ function footer() {
   }, [])
   return (
     <footer className={styles.fcontainer}>
-      <p data-aos="fade-up" className={styles.yenepoya}><span>YENEPOYA</span>  <span>INSTITUTE OF TECHNOLOGY</span> </p>
+      <p className={styles.yenepoya}><span>YENEPOYA</span>  <span>INSTITUTE OF TECHNOLOGY</span> </p>
       <p className={styles.subaddress}>Thodar, Mijar Post, Mangaluru Taluk -574225</p>
       <p className={styles.subaddress}> <LocalPhoneIcon className='icn' /> Tel: 08258 - 262733, 262713</p>
       <p className={styles.subaddress}><EmailIcon className='icn' /> Email: <a href="mailto:info@yit.edu.in">info@yit.edu.in</a> </p>

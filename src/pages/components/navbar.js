@@ -34,7 +34,8 @@ function navbar() {
         <a className={styles.navoption} href="/#gallery">
           Gallery
         </a>
-        <div className={styles.navoption}>Sponsors</div>
+        <div className={styles.navoption}> <Link href="/sponser">Sponsors</Link></div>
+        <div className={styles.navoption}> <Link href="/team">Our Team</Link></div>
         <div className={styles.navoption}>
           {" "}
           <Link href="/aboutus"> About Us</Link>
@@ -42,7 +43,7 @@ function navbar() {
       </div>
       <div className={styles.menu}>
    {!show &&  <div className={styles.leaves}>
-          {" "}
+        
           <Image
             src={leaves}
             width={500}
