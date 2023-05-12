@@ -23,7 +23,7 @@ const Team = () => {
           <p className={styles.profile_info2}>
             4 <sup>th</sup> YEAR CSE
           </p>
-          <p>Front-End/UI UX</p>
+          <p>Full Stack Developer</p>
           <div className={styles.social_handles}>
             <div>
               <FacebookIcon style={{ color: "black" }} />

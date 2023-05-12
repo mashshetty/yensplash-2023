@@ -546,6 +546,15 @@
   z-index: 10000;
 }
 
+.sponser_container{
+  background: #09064c;
+}
+
+.team_container{
+  background: #09064c ;
+}
+
+
 .pronitecard1 {
  
   padding: 20px;

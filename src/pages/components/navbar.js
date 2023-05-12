@@ -8,6 +8,8 @@ import Image from "next/image";
 function navbar() {
   const [show, setShow] = useState(false);
 
+  
+
   return (
     <>
       <div className={styles.nav}>
@@ -64,8 +66,8 @@ function navbar() {
           Gallery
         </a></div>
             <div onClick={e=>setShow(!show)}  className={styles.navoption}><Link href="/events">Events</Link></div>
-            <div className={styles.navoption}> <Link href="/sponser">Sponsors</Link></div>
-        <div className={styles.navoption}> <Link href="/team">Our Team</Link></div>
+            <div  onClick={e=>setShow(!show)}  className={styles.navoption}> <Link href="/sponser">Sponsors</Link></div>
+        <div  onClick={e=>setShow(!show)}  className={styles.navoption}> <Link href="/team">Our Team</Link></div>
             <div onClick={e=>setShow(!show)}  className={styles.navoption}>       <Link href="/aboutus"> About Us</Link></div>
           </div>
         )}

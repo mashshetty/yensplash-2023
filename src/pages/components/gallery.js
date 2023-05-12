@@ -69,7 +69,7 @@ function gallery() {
         <h1 data-aos="fade-down" className={styles.yenx}> <span className={styles.glimpse}>Glimpses of</span>  Yenspalsh <span className={styles.year}>2022!!</span> </h1>
    
       <img className={styles.galBgImg} src={images[imgIndex]} alt="img" />
-<div data-aos="fade-up" className={styles.imgContainer}>
+<div  className={styles.imgContainer}>
 
 <img className={styles.galImg1} src={imgIndex!==0?  images[imgIndex-1%images.length] : images[images.length-1]} alt="img" />
 <img className={styles.galImg} src={images[imgIndex]} alt="img" />
