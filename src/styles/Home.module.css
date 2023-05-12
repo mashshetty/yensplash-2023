@@ -833,9 +833,9 @@ align-items: center;
 }
 
 .eventImage {
-  transform: rotate(-30deg);
-  margin-top: 100px;
-  width: 85% !important;
+  /* transform: rotate(-30deg); */
+  /* margin-top: 100px; */
+  /* width: 85% !important; */
   height: 420px !important;
   background: linear-gradient(#0a064c84, rgb(7, 4, 74)) !important;
   z-index: -10;
@@ -857,7 +857,7 @@ align-items: center;
   margin-bottom: 10px;
   font-weight: 600;
 }
-
+/* 
 .rotatedcard {
   top: 0px;
   position: absolute;
@@ -868,7 +868,7 @@ align-items: center;
     background: rgb(255, 255, 255);
     top: -90px;
     overflow: hidden;
-}
+} */
 
 .eventBottom {
   font-family: "Dancing Script", cursive;
