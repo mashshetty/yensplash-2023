@@ -1669,7 +1669,7 @@ padding-inline: 20px;
   padding: 10px;
 }
 .eventCard{
-  width: 350px;
+width: min(90%,300px);
 }
 .eventContainerx {
   padding: 0px;
