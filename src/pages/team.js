@@ -10,7 +10,7 @@ import team1 from "../../public/mash.jpg";
 import team2 from "../../public/vikas.jpeg";
 import team3 from "../../public/thanay.jpeg";
 import team4 from "../../public/mehfooz.jpeg";
-import team5 from "../../public/untitled.jpg";
+import team5 from "../../public/mash.jpg";
 const Team = () => {
   return (
     <div className={styles.team_container}>
