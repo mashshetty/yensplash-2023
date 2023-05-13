@@ -1,18 +1,19 @@
-import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
-import Welcome from "./components/welcome";
-import img from "../../public/YENSPLASH.png";
-import Gallery from "./components/gallery";
-import Pronite from "./components/pronite";
-import bg from "../../public/bgvideo.mp4";
-import mbg from "../../public/mobile.mp4";
-import { useEffect, useRef, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import EventMainpage from "./components/eventMainpage";
+import { Inter } from "next/font/google";
+import Head from "next/head";
+import Image from "next/image";
+import { useEffect, useRef, useState } from "react";
+import img from "../../public/YENSPLASH.png";
+import bg from "../../public/bgvideo.mp4";
 import legacy from "../../public/legacy.png";
+import mbg from "../../public/mobile.mp4";
+import EventMainpage from "./components/eventMainpage";
+import Gallery from "./components/gallery";
+import Pronite from "./components/pronite";
+import Welcome from "./components/welcome";
+import InterEventsx from "./interCollege";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -91,6 +92,7 @@ export default function Home() {
         <Gallery />
 
         <Pronite />
+        <InterEventsx />
         <EventMainpage />
       </main>
     </>
