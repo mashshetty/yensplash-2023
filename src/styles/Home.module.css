@@ -1201,6 +1201,10 @@ align-items: center;
   flex-wrap: wrap;
   gap: 30px;
 }
+@media(10px <= width <=645px){
+  .pro_nite_containerx {
+    font-size: 300%;
+}
 
 .eventDetailsList>* {
   margin-block: 5px;
