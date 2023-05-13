@@ -2020,6 +2020,7 @@ padding-top: 20px;
 
   @media (10px <=width <=645px) {
     .homepage {
+      gap: 30px;
       padding-top: 50px;
     }
 
@@ -2031,8 +2032,8 @@ padding-top: 20px;
 
     .homeimg {
       margin-top: 50px;
-      height: 400px !important;
-      width: 550px !important;
+      height: 300px !important;
+      width: 450px !important;
     }
   }
 
