@@ -12,9 +12,10 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
-
+import pone from "../../../public/one.png";
+import ptwo from "../../../public/theme.png";
+import pthree from "../../../public/three-pronite.png";
 function pronite() {
-  
   // useEffect(() => {
   //   function handleScroll() {
   //     console.log('Window was scrolled');
@@ -28,8 +29,11 @@ function pronite() {
   // }, []);
   return (
     <>
-    <section id="pronite">
-      <div  className={styles.proxcontainer}>
+      <div data-aos="fade-left" className={styles.pronightHeader}>
+        Pro-Nites
+      </div>
+      <section id="pronite" className={styles.pro_nite_container}>
+        {/* <div  className={styles.proxcontainer}>
         <div data-aos="fade-left" className={styles.pronightHeader}>Pro-Nites</div>
         <div className={styles.pcontainer}>
           <div data-aos="fade-up" className={styles.pronite}>
@@ -168,7 +172,43 @@ function pronite() {
 
           
           </div>
-      </div>
+      </div> */}
+        <div class={styles.card_container}>
+          <div class={styles.top_section}>
+            <Image
+              height={400}
+              width={400}
+              className={styles.proimg}
+              src={pone}
+              quality={80}
+              alt="pronite-image"
+            ></Image>
+          </div>
+        </div>
+        <div class={styles.card_container}>
+          <div class={styles.top_section}>
+            <Image
+              height={400}
+              width={400}
+              className={styles.proimg}
+              src={ptwo}
+              quality={80}
+              alt="pronite-image"
+            ></Image>
+          </div>
+        </div>
+        <div class={styles.card_container}>
+          <div class={styles.top_section}>
+            <Image
+              height={400}
+              width={400}
+              className={styles.proimg}
+              src={pthree}
+              quality={80}
+              alt="pronite-image"
+            ></Image>
+          </div>
+        </div>
       </section>
     </>
   );
