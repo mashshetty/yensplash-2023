@@ -7,8 +7,7 @@ import { Button } from "@mui/material";
 import Image from "next/image";
 import Link from "next/link";
 // import events from '../../public/events.json';
-import tree from "../../public/qq.jpg";
-import {events} from "./eventDetails"
+import { events } from "./eventDetails";
 
 function Eventsx() {
 
@@ -23,8 +22,7 @@ function Eventsx() {
               <div className={styles.eventImagecard}>
                 <Image
                   className={styles.eventImage}
-                  // src={events[index].image}
-                  src={tree}
+                  src={events[index].image}
                   height="500"
                   width="400"
                   alt="event image"
