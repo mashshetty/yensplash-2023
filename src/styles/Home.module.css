@@ -799,7 +799,7 @@
   margin: 5px;
 }
 
-.copyright {
+/* .copyright {
   color: white;
   background: #02002b;
   font-size: 120%;
@@ -808,7 +808,7 @@
   padding: 10px 10px;
   margin-bottom: -40px;
   margin-top: 20px;
-}
+} */
 .eventContainerx {
   position: relative;
   top: 30px;
@@ -1580,10 +1580,10 @@ padding-inline: 20px;
     margin-left: 50%;
     transform: translate(-50%, -50%) !important;
   }
-  .yenepoya {
+  /* .yenepoya {
     font-size: 200%;
     text-align: left;
-  }
+  } */
   .pronitecard1 {
     width: 93vw;
     margin: auto;
@@ -1718,6 +1718,12 @@ padding-top: 20px;
 
 .galImg1{
   display: none;
+}
+
+
+.imgLegacy{
+  height: 300px !important;
+  width: 400px !important;
 }
 
 
