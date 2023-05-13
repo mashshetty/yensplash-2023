@@ -1201,6 +1201,11 @@ align-items: center;
   flex-wrap: wrap;
   gap: 30px;
 }
+@media(10px <= width <=645px){
+  .pro_nite_containerx {
+    font-size: 100%;
+}
+}
 
 .eventDetailsList>* {
   margin-block: 5px;
@@ -1220,6 +1225,7 @@ align-items: center;
   align-items: center;
   gap: 10px;
 }
+
 
 .eventSchedule p {
   display: flex;
@@ -1628,7 +1634,7 @@ padding-inline: 20px;
   }
   .homeimg {
     width: 450px !important;
-    height: 340px !important;
+    height: 320px !important;
   }
   .homepageimg {
     display: none;
@@ -1815,9 +1821,11 @@ padding-top: 20px;
 }
 
 
+
 .imgLegacy{
   height: 300px !important;
   width: 90% !important;
+  text-align: center;
 }
 
 
