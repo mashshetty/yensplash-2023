@@ -154,7 +154,7 @@
 .about {
   margin-top: 50px;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: center;
   align-items: center;
 }
@@ -1580,10 +1580,10 @@ padding-inline: 20px;
     margin-left: 50%;
     transform: translate(-50%, -50%) !important;
   }
-  .yenepoya {
+  /* .yenepoya {
     font-size: 200%;
     text-align: left;
-  }
+  } */
   .pronitecard1 {
     width: 93vw;
     margin: auto;
@@ -1667,7 +1667,9 @@ padding-inline: 20px;
 }
 .ab1{
   padding: 40px;
-  font-size: 100%;
+    font-size: 100%;
+    margin-top: -86px;
+
 }
 .info {
   font-size: 100%;
@@ -1718,6 +1720,26 @@ padding-top: 20px;
 
 .galImg1{
   display: none;
+}
+
+.aboutUsContainer{
+padding: 3px;
+}
+
+.aboutYen{
+  font-size: 100%;
+}
+
+.abtushead{
+  font-size: 160%;
+}
+
+.abtushead2{
+  font-size: 160%;
+}
+
+.about{
+  flex-wrap: wrap;
 }
 
 

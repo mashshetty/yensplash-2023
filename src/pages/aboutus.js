@@ -13,7 +13,7 @@ function aboutus() {
       
   return (
     <div className={styles.aboutUsContainer}>
-        <br />
+       
       <h1  data-aos="fade-up" className={styles.abtushead}>About Us</h1>
       <div className={styles.about}>
         <div className={styles.ab1}>
@@ -40,7 +40,7 @@ function aboutus() {
           </p>
         </div>
       </div>
-      <br />
+     
       <h1  data-aos="fade-right" className={styles.abtushead}>About YenSplash</h1>
       <div className={styles.about}>
         <div className={styles.ab1}>

@@ -12,6 +12,7 @@ import { useEffect, useRef, useState } from 'react';
 import AOS from "aos";
 import 'aos/dist/aos.css';
 import EventMainpage from "./components/eventMainpage";
+import legacy from "../../public/legacy.png"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -72,13 +73,15 @@ export default function Home() {
           </div>
         
           <div className="wrapper">
-          <div
+          {/* <div
             // data-aos="fade-right"
             className={`${AddClass} ? ${styles.quate} ${styles.animate} : ${styles.quate}`}
             id="demo"
           >
             EMBRACE THE LEGACY{" "}
-          </div>          </div>
+          </div>      */}
+<Image src={legacy} height={400} width={400} alt="embrace the legacy"></Image>
+     </div>
         </div>
         <Welcome />
         <Gallery />
