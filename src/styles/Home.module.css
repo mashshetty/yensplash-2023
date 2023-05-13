@@ -1870,7 +1870,6 @@
   font-size: 100%;
   margin: 2px;
 } */
-<<<<<<< HEAD
 .pronightHeader{
   font-size: 240%;
 }
@@ -1950,11 +1949,9 @@ padding-top: 20px;
     width: 450px !important;
   }
 }
-=======
   .pronightHeader {
     font-size: 240%;
   }
->>>>>>> e18634b7a943af3023992794500a1e5b95ddc0cf
 
   .ab1 {
     padding: 40px;
@@ -1979,9 +1976,7 @@ padding-top: 20px;
     padding: 0px;
   }
 
-  .eventImage {
-    /* height: 440px !important; */
-  }
+ 
 
   .copyright {
     font-size: 80%;
@@ -2046,5 +2041,6 @@ padding-top: 20px;
     transform: rotate(18deg);
   }
 
-
 }
+
+
