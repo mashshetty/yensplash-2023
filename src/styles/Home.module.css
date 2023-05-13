@@ -923,16 +923,16 @@ align-items: center;
   width: 100%;
   height: auto
 }
-/* .eventName{
+.eventName{
   color: #ffc656;
   text-align: center;
-  font-size: 450%;
+/*   font-size: 450%; */
   font-weight: 800;
-  letter-spacing: 5px;
-  margin-bottom: 20px;
-  font-family: "Dancing Script", cursive;
-  margin-bottom: 20px;
-} */
+  letter-spacing: 2px;
+/*   margin-bottom: 20px; */
+/*   font-family: "Dancing Script", cursive; */
+/*   margin-bottom: 20px; */
+}
 .proDetailsx{
   z-index: 20;
   display: flex;
