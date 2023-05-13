@@ -379,7 +379,8 @@ export const events = [
   },
   {
     "name": "BGMI",
-    "alias": BGMI,
+    "alias": "",
+    "image": BGMI,
     "aboutEvent": "BGMI is a player versus player shooter game in which up to one hundred players fight in a battle royale, a type of large-scale last man standing deathmatch where players fight to remain the last alive. The last person or team alive wins the match",
     "eventDetail": [
       "First round will be Erangel top 4 teams will be selected for the final round from each lobby,",
