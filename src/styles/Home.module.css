@@ -263,6 +263,7 @@
 .homepage {
   position: relative;
   display: flex;
+  /* padding-top: 50px; */
   align-items: center;
   width: 100%;
   height: 100vh;
@@ -271,6 +272,11 @@
   background: #09064c;
   /* flex-wrap: wrap; */
   overflow: hidden;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
 }
 
 .homeimg {
@@ -1926,14 +1932,29 @@
     display: none;
   }
 
-
-
   .imgLegacy {
     height: 300px !important;
-    width: 90% !important;
+    width: 100% !important;
     text-align: center;
   }
 
+  @media (10px <=width <=645px) {
+    .homepage {
+      padding-top: 50px;
+    }
+
+    .imgLegacy {
+      margin-top: -200px !important;
+      height: 350px !important;
+      margin-top: -50px;
+    }
+
+    .homeimg {
+      margin-top: 50px;
+      height: 400px !important;
+      width: 550px !important;
+    }
+  }
 
   .leaves {
     height: 400px;
