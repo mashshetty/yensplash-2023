@@ -172,7 +172,7 @@
 .about {
   margin-top: 50px;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: center;
   align-items: center;
 }
@@ -2052,6 +2052,21 @@ padding-top: 20px;
     transform: rotate(18deg);
   }
 
+  .about{
+    flex-wrap: wrap;
+  }
+
+  .aboutYen{
+    font-size: 100% !important;
+  }
+
+ .aboutUsContainer{
+  padding: 0px;
+ }
+
+ .abtushead{
+  font-size: 350%;
+ }
 }
 
 
