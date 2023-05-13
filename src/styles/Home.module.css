@@ -1414,13 +1414,15 @@ align-items: center;
     width: 280px;
   }
   .right_container{
-    height: calc(100% - 200px);
+    
+    height: 126px;
+    border-bottom-right-radius: inherit;
+    border-bottom-left-radius: inherit;
   }
   }
 .right_container{
-  height: calc(100% - 250px);
+ 
   width: 100%;
-  /* background-color: #01579b; */
   background-color: rgb(54 69 79/86%);
   backdrop-filter: blur(4px);
   display: flex;
@@ -1434,6 +1436,9 @@ align-items: center;
   padding-inline: 10px;
   text-align: center;
   color: white;
+  height: 126px;
+    border-bottom-right-radius: inherit;
+    border-bottom-left-radius: inherit;
 }
 @media (100px <= width <= 400px){
   .right_container{
