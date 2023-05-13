@@ -6,8 +6,9 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 import { Button } from "@mui/material";
 import Image from "next/image";
 import Link from "next/link";
-import events from '../../public/events.json';
+// import events from '../../public/events.json';
 import tree from "../../public/qq.jpg";
+import {events} from "./eventDetails"
 
 function Eventsx() {
 
