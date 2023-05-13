@@ -1,8 +1,5 @@
 import React, { useState } from "react";
 import styles from "@/styles/Home.module.css";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import bite from "../../public/bite.png";
 import mayuri from "../../public/mayuri.png";
 import estate from "../../public/estate.png";
