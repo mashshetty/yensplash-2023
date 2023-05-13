@@ -4,7 +4,9 @@ import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-import event from '../../../public/events.json';
+// import event from '../../../public/events.json';
+import { events } from "./../eventDetails";
+
 
 function Event() {
   const router = useRouter();
@@ -20,28 +22,26 @@ function Event() {
 
   }, []);
 
-
-
   return (
     <div className={styles.eventPage}>
       <img
         className={styles.eventsImg}
-        src="/tree.jpg"
+        src={`../${events[data].image.src}`}
         alt="event image"
       ></img>
       <div className={styles.eventName}>
-        <p>{event[data].name} </p>
-        <span>{event[data].alias} </span>
+        <p>{events[data].name} </p>
+        <span>{events[data].alias} </span>
       </div>
       <div className={styles.eventDescription}>
         <div className={styles.eventDetailsContainer}>
           <div className={styles.eventDetailTitle}></div>
-          <div className={styles.eventDetailsList}>{event[data].aboutEvent}</div>
+          <div className={styles.eventDetailsList}>{events[data].aboutEvent}</div>
         </div>
         <div className={styles.eventDetailsContainer}>
           <div className={styles.eventDetailTitle}>Event Details</div>
           <div className={styles.eventDetailsList}>
-            {event[data].eventDetail.map((item, index) => (
+            {events[data].eventDetail.map((item, index) => (
               <li>{item}</li>
             ))}
           </div>
@@ -49,7 +49,7 @@ function Event() {
         <div className={styles.eventDetailsContainer}>
           <div className={styles.eventDetailTitle}>Rules and Regulations</div>
           <div className={styles.eventDetailsList}>
-            {event[data].rules.map((item, index) => (
+            {events[data].rules.map((item, index) => (
               <li>{item}</li>
             ))}
           </div>
@@ -57,7 +57,7 @@ function Event() {
         <div className={styles.eventDetailsContainer}>
           <div className={styles.eventDetailTitle}>Judging Criteria</div>
           <div className={styles.eventDetailsList}>
-            {event[data].judgingCriteria.map((item, index) => (
+            {events[data].judgingCriteria.map((item, index) => (
               <li>{item}</li>
             ))}
           </div>
@@ -65,7 +65,7 @@ function Event() {
         <div className={styles.eventDetailsContainer}>
           <div className={styles.eventDetailTitle}>Student Coordinators</div>
           <div className={styles.eventDetailsList}>
-            {event[data].coordinators.students.map((item, index) => (
+            {events[data].coordinators.students.map((item, index) => (
               <p>{item.name} ( <a href={`tel:${item.phone}`}>{item.phone}</a>)</p>
             ))}
           </div>
@@ -73,7 +73,7 @@ function Event() {
         <div className={styles.eventDetailsContainer}>
           <div className={styles.eventDetailTitle}>Faculty Coordinators</div>
           <div className={styles.eventDetailsList}>
-            {event[data].coordinators.faculty.map((item, index) => (
+            {events[data].coordinators.faculty.map((item, index) => (
               <p>Prof. {item}</p>
             ))}
           </div>
@@ -81,9 +81,9 @@ function Event() {
 
       </div>
       <div className={styles.eventSchedule}>
-        <p><CalendarTodayIcon />&nbsp;&nbsp;{event[data].schedule.day}  </p>
-        <p><AccessTimeIcon />&nbsp;&nbsp;{event[data].schedule.time}  </p>
-        <p><LocationOnIcon />&nbsp;&nbsp;{event[data].schedule.venue} </p>
+        <p><CalendarTodayIcon />&nbsp;&nbsp;{events[data].schedule.day}  </p>
+        <p><AccessTimeIcon />&nbsp;&nbsp;{events[data].schedule.time}  </p>
+        <p><LocationOnIcon />&nbsp;&nbsp;{events[data].schedule.venue} </p>
       </div>
 
     </div >
