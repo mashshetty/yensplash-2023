@@ -80,7 +80,7 @@ export default function Home() {
           >
             EMBRACE THE LEGACY{" "}
           </div>      */}
-<Image src={legacy} height={400} width={400} alt="embrace the legacy"></Image>
+<Image  className={styles.imgLegacy} src={legacy} height="600" width="600" alt="embrace the legacy"></Image>
      </div>
         </div>
         <Welcome />
