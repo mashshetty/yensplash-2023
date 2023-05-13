@@ -1203,7 +1203,7 @@ align-items: center;
 }
 @media(10px <= width <=645px){
   .pro_nite_containerx {
-    font-size: 300%;
+    font-size: 100%;
 }
 }
 
