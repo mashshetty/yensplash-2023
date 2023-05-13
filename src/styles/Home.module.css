@@ -1180,6 +1180,8 @@ align-items: center;
 } */
 .pro_nite_container{
   min-height: 500px !important;
+  box-sizing: border-box;
+  padding-inline: 10px;
   display: flex !important;
   background: #09064c;
   /* border: solid white; */
