@@ -1625,7 +1625,7 @@ padding-inline: 20px;
   }
   .homeimg {
     width: 450px !important;
-    height: 340px !important;
+    height: 320px !important;
   }
   .homepageimg {
     display: none;
@@ -1812,9 +1812,11 @@ padding-top: 20px;
 }
 
 
+
 .imgLegacy{
   height: 300px !important;
   width: 90% !important;
+  text-align: center;
 }
 
 
