@@ -1831,16 +1831,18 @@ padding-top: 20px;
 @media (10px <= width <= 645px){
   .homepage{
     padding-top: 50px;
+    padding-inline: 20px !important;
+    box-sizing: border-box;
   }
   .imgLegacy{
-    margin-top: -200px !important;
-    height: 350px !important;
-    margin-top: -50px;
+    margin-top: -100px !important;
+    height: 300px !important;
+    margin-top: -20px;
   }
   .homeimg{
     margin-top: 50px;
-    height: 400px !important;
-    width: 550px !important;
+    height: 350px !important;
+    width: 450px !important;
   }
 }
 
