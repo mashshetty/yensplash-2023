@@ -54,14 +54,29 @@
 
 }
 
-.eventHeader{
+.pronightHeaderu {
+  font-family: "slick";
+  color: #ffc656;
+  text-align: center;
+  font-size: 450%;
+  font-weight: 800;
+  letter-spacing: 5px;
+  /* margin-bottom: 20px; */
+  font-family: "Dancing Script", cursive;
+  /* margin-top: 100px; */
+  z-index: 20;
+ /* background: #09064c; */
+
+}
+
+/* .eventHeader{
   font-family: "Dancing Script", cursive;
   color: #8b5c00;
   text-align: center;
   font-size: 450%;
   margin-top: 20px;
   margin-bottom: -20px;
-}
+} */
 .eventHeaderx{
   font-family: "Dancing Script", cursive;
   color: #ffc656;
@@ -811,7 +826,7 @@
 } */
 .eventContainerx {
   position: relative;
-  top: 30px;
+  /* top: 30px; */
   padding: 30px 30px;
   background: #09064c;
   display: flex;
@@ -857,7 +872,7 @@ align-items: center;
   font-weight: 800;
 }
 
-.eventDetails {
+/* .eventDetails {
   padding: 10px;
   color:#272727;
   margin: 20px;
@@ -865,7 +880,7 @@ align-items: center;
   margin-inline: 0px;
   margin-bottom: 10px;
   font-weight: 600;
-}
+} */
 /* 
 .rotatedcard {
   top: 0px;
@@ -926,12 +941,12 @@ align-items: center;
 .eventName{
   color: #ffc656;
   text-align: center;
-  font-size: 450%;
+/*   font-size: 450%; */
   font-weight: 800;
-  letter-spacing: 5px;
-  margin-bottom: 20px;
-  font-family: "Dancing Script", cursive;
-  margin-bottom: 20px;
+  letter-spacing: 2px;
+/*   margin-bottom: 20px; */
+/*   font-family: "Dancing Script", cursive; */
+/*   margin-bottom: 20px; */
 }
 .proDetailsx{
   z-index: 20;
@@ -1106,6 +1121,82 @@ align-items: center;
 .eventDetailsList {
   padding-left: 0.5rem;
   text-align: justify;
+}
+
+/* vishals pronite card cod */
+
+.card_container {
+  box-sizing: border-box;
+  padding-inline: 10px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0 2px 4px, rgba(0, 0, 0, 0.3) 0 7px 13px -3px, rgba(0, 0, 0, 0.2) 0 -3px 0 inset;
+  border-radius: 20px;
+  overflow: hidden !important;
+  width: 350px;
+  height: min-content;
+  /* min-height: 500px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white !important;
+  border-top: solid 3px #09064c;
+  border-left: solid 3px #09064c;
+  border-width: 80%;
+}
+.top_section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+}
+.top_section img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+@media(10px <= width <=645px){
+  .card_container {
+    padding-top: 20px;
+    height: 440px;
+}
+}
+.top_section img:hover {
+  transition: 0.3s;
+  transform: scale(1.01);
+}
+/* @media(10px <= width <= 500px) {
+  .card_container {
+      width: 300px;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+  }
+} */
+.pro_nite_container{
+  min-height: 500px !important;
+  display: flex !important;
+  background: #09064c;
+  /* border: solid white; */
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.pro_nite_containerx{
+  min-height: 500px !important;
+  display: flex !important;
+  background: #09064c;
+  /* border: solid white; */
+  margin-top: -2px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .eventDetailsList>* {
@@ -1658,10 +1749,10 @@ padding-inline: 20px;
   .prodesc{
     font-size: 100%;
   } 
-.subaddress{
+/* .subaddress{
   font-size: 100%;
   margin: 2px;
-}
+} */
 .pronightHeader{
   font-size: 240%;
 }
@@ -1748,7 +1839,16 @@ padding: 3px;
 }
 
 
+.imgLegacy{
+  height: 300px !important;
+  width: 90% !important;
+}
 
+
+.leaves{
+  height: 400px;
+    transform: rotate(18deg);
+}
 
 
 }

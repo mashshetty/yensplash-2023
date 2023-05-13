@@ -45,6 +45,8 @@ export default function Home() {
       <Head>
         <title>Yenspalsh 2023</title>
         <meta name="description" content="yenslpash 2023" />
+        <meta name="keywords" content="yensplash, yenepoya, yensplash 2023" />
+        <link rel="canonical" href="https://yensplash.in" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -73,6 +75,7 @@ export default function Home() {
           </div>
         
           <div className="wrapper">
+<<<<<<< HEAD
           {/* <div
             // data-aos="fade-right"
             className={`${AddClass} ? ${styles.quate} ${styles.animate} : ${styles.quate}`}
@@ -81,6 +84,10 @@ export default function Home() {
             EMBRACE THE LEGACY{" "}
           </div>      */}
 <Image  className={styles.imgLegacy} src={legacy} height="600" width="600" alt="embrace the legacy"></Image>
+=======
+          <Image  className={styles.imgLegacy} src={legacy} height="600" width="600" alt="embrace the legacy"></Image>  
+
+>>>>>>> 7decab88a507edcc8ffb03241d5c1fa84990e57a
      </div>
         </div>
         <Welcome />

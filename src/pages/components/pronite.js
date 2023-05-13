@@ -12,27 +12,29 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
-import Link from 'next/link';
-
+import pone from "../../../public/one.png";
+import ptwo from "../../../public/theme.png";
+import pthree from "../../../public/three-pronite.png";
 function pronite() {
-  const handleDownload = (event) => {
-    event.preventDefault();
-    const fileUrl = '/rulebook.pdf';
-    const fileName = 'myfile.pdf';
-    const link = document.createElement('a');
-    link.href = fileUrl;
-    link.setAttribute('download', fileName);
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
-  
+  // useEffect(() => {
+  //   function handleScroll() {
+  //     console.log('Window was scrolled');
+  //   }
 
+  //   window.addEventListener('scroll', handleScroll);
+
+  //   return () => {
+  //     window.removeEventListener('scroll', handleScroll);
+  //   };
+  // }, []);
   return (
-    <>
-    <section id="pronite">
-      <div  className={styles.proxcontainer}>
-        <div data-aos="fade-left" className={styles.pronightHeader}>Pro-Nites</div>
+    <>   
+      <section id="pronite" className={styles.pro_nite_containerx}>
+      <div data-aos="fade-left" className={styles.pronightHeaderu}>Pro-Nites</div>
+      <section id="pronite" className={styles.pro_nite_container}>
+  
+        {/* <div  className={styles.proxcontainer}>
+   
         <div className={styles.pcontainer}>
           <div data-aos="fade-up" className={styles.pronite}>
             <div className={styles.pronitecard1}>
@@ -105,15 +107,15 @@ function pronite() {
               </div>
               <div className={styles.viewmore}>
                 <div className={styles.mr}>
-                  <InstagramIcon className="sicn" fontSize="large" />
+                  <InstagramIcon fontSize="large" />
                 </div>
                 <div className={styles.mr}>
                   {" "}
-                  <FacebookIcon className="sicn" fontSize="large" />
+                  <FacebookIcon fontSize="large" />
                 </div>
                 <div className={styles.mr}>
                   {" "}
-                  <TwitterIcon className="sicn" fontSize="large" />
+                  <TwitterIcon fontSize="large" />
                 </div>
               </div>
             </div>
@@ -164,16 +166,53 @@ function pronite() {
         </div>
         <div data-aos="fade-up" className={styles.download}>  
         
-        <a href="/rulebook.pdf" onClick={handleDownload}>
-        <span className={styles.dow}>    Download Brochure</span>
-     
-    </a>
+         <span className={styles.dow}> Download Brochure</span>
+
          
 
           
           </div>
-      </div>
+      </div> */}
+           
+        <div data-aos="fade-up" class={styles.card_container}>
+          <div  class={styles.top_section}>
+            <Image
+              height={400}
+              width={400}
+              className={styles.proimg}
+              src={pone}
+              quality={80}
+              alt="pronite-image"
+            ></Image>
+          </div>
+        </div>
+        <div data-aos="fade-up" class={styles.card_container}>
+          <div class={styles.top_section}>
+            <Image
+              height={400}
+              width={400}
+              className={styles.proimg}
+              src={ptwo}
+              quality={80}
+              alt="pronite-image"
+            ></Image>
+          </div>
+        </div>
+        <div data-aos="fade-up" class={styles.card_container}>
+          <div class={styles.top_section}>
+            <Image
+              height={400}
+              width={400}
+              className={styles.proimg}
+              src={pthree}
+              quality={80}
+              alt="pronite-image"
+            ></Image>
+          </div>
+        </div>
       </section>
+      </section>
+    
     </>
   );
 }
