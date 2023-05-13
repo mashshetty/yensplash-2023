@@ -811,7 +811,7 @@
 } */
 .eventContainerx {
   position: relative;
-  top: 30px;
+  /* top: 30px; */
   padding: 30px 30px;
   background: #09064c;
   display: flex;
