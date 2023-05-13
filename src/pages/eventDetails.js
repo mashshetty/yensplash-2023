@@ -1,7 +1,7 @@
 
 import q  from "../../public/mash.jpg"
 
-export const events = [
+export  const events = [
     {
       "name": "Film Frenzy Fest",
       "alias": "Reel Making",
@@ -1027,4 +1027,17 @@ export const events = [
       }
     }
   ]
+
+  
+  
+
+  import React from 'react'
+  
+  function eventDetails() {
+    return (
+      <div>eventDetails</div>
+    )
+  }
+  
+  export default eventDetails
   
