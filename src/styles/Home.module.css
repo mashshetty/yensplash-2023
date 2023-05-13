@@ -1205,6 +1205,7 @@ align-items: center;
   .pro_nite_containerx {
     font-size: 300%;
 }
+}
 
 .eventDetailsList>* {
   margin-block: 5px;
@@ -1224,6 +1225,7 @@ align-items: center;
   align-items: center;
   gap: 10px;
 }
+
 
 .eventSchedule p {
   display: flex;
