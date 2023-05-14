@@ -174,8 +174,8 @@ function pronite() {
           </div>
       </div> */}
            
-        <div data-aos="fade-up" class={styles.card_container}>
-          <div  class={styles.top_section}>
+        <div data-aos="fade-up" className={styles.card_container}>
+          <div  className={styles.top_section}>
             <Image
               height={400}
               width={400}
@@ -186,8 +186,8 @@ function pronite() {
             ></Image>
           </div>
         </div>
-        <div data-aos="fade-up" class={styles.card_container}>
-          <div class={styles.top_section}>
+        <div data-aos="fade-up" className={styles.card_container}>
+          <div className={styles.top_section}>
             <Image
               height={400}
               width={400}
@@ -198,8 +198,8 @@ function pronite() {
             ></Image>
           </div>
         </div>
-        <div data-aos="fade-up" class={styles.card_container}>
-          <div class={styles.top_section}>
+        <div data-aos="fade-up" className={styles.card_container}>
+          <div className={styles.top_section}>
             <Image
               height={400}
               width={400}
