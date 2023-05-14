@@ -2,22 +2,26 @@ import styles from "@/styles/Home.module.css";
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 // import event from '../../../public/events.json';
 import { interEvents } from "./../interCollegeDetails";
+import { useRouter } from "next/router";
 
 
 function interEvent() {
-    // const router = useRouter();
+    const router = useRouter();
+  
 
-    // const [data, setData] = useState(0);
-    const data = 0;
+    const [data, setData] = useState(0);
+  
     useEffect(() => {
 
-        // const { eventId } = router.query;
-        // if (eventId) {
-        //     setData(Number(eventId));
-        // }
+        const { InterCollegeEventId } = router.query;
+        if (InterCollegeEventId) {
+            setData(Number(InterCollegeEventId));
+        }
+
+        console.log(InterCollegeEventId)
 
     }, []);
 
@@ -101,4 +105,4 @@ function interEvent() {
     );
 }
 
-export default Event;
+export default interEvent;
