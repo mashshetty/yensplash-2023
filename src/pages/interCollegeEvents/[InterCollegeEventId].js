@@ -4,16 +4,16 @@ import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import { useEffect, useState } from "react";
 // import event from '../../../public/events.json';
-import { interEvents } from "./../interCollegeDetails";
 import { useRouter } from "next/router";
+import { interEvents } from "./../interCollegeDetails";
 
 
 function interEvent() {
     const router = useRouter();
-  
+
 
     const [data, setData] = useState(0);
-  
+
     useEffect(() => {
 
         const { InterCollegeEventId } = router.query;
@@ -39,7 +39,7 @@ function interEvent() {
             <div className={styles.eventDescription}>
                 <div className={styles.eventDetailsContainer}>
                     <div className={styles.eventDetailTitle}>Entry Fee</div>
-                    <div className={styles.eventDetailsList}>{interEvents[data].fee}</div>
+                    <div className={styles.eventDetailsList}>{interEvents[data].Fee}</div>
                 </div>
                 <div className={styles.eventDetailsContainer}>
                     <div className={styles.eventDetailTitle}>Registration</div>
